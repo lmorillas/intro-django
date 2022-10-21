@@ -1,0 +1,13 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Desarrollo Web Entorno Servidor – dash</title><link>https://lmorillas.github.io/dwes/tags/dash/</link><description>Recent content in dash on Desarrollo Web Entorno Servidor</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 21 Oct 2021 10:29:17 +0200</lastBuildDate><atom:link href="https://lmorillas.github.io/dwes/tags/dash/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Chuleta Pandas</title><link>https://lmorillas.github.io/dwes/docs/dash/chuleta_pandas/</link><pubDate>Thu, 21 Oct 2021 10:29:17 +0200</pubDate><guid>https://lmorillas.github.io/dwes/docs/dash/chuleta_pandas/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;ul>
+&lt;li>&lt;a href="https://pandas.pydata.org/">https://pandas.pydata.org/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.dataquest.io/blog/pandas-cheat-sheet/">https://www.dataquest.io/blog/pandas-cheat-sheet/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div></description></item><item><title>Docs: Curso OW</title><link>https://lmorillas.github.io/dwes/docs/dash/curso_ow/</link><pubDate>Thu, 21 Oct 2021 10:29:17 +0200</pubDate><guid>https://lmorillas.github.io/dwes/docs/dash/curso_ow/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;ul>
+&lt;li>&lt;a href="https://openwebinars.net/academia/aprende/dashboard-dash/">https://openwebinars.net/academia/aprende/dashboard-dash/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;h2 id="proyecto-real">Proyecto Real&lt;/h2></description></item></channel></rss>

@@ -1,0 +1,61 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Desarrollo Web Entorno Servidor – ejercicio</title><link>https://lmorillas.github.io/dwes/tags/ejercicio/</link><description>Recent content in ejercicio on Desarrollo Web Entorno Servidor</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 21 Oct 2021 10:36:54 +0200</lastBuildDate><atom:link href="https://lmorillas.github.io/dwes/tags/ejercicio/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Ejercicios repaso y profundización</title><link>https://lmorillas.github.io/dwes/docs/django/ejercicios_repaso/</link><pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate><guid>https://lmorillas.github.io/dwes/docs/django/ejercicios_repaso/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Documentación:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/">https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.djangoproject.com/en/3.2/intro/">https://docs.djangoproject.com/en/3.2/intro/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;h2 id="revisar-instalación">Revisar instalación&lt;/h2>
+&lt;ul>
+&lt;li>Entorno virtual&lt;/li>
+&lt;li>Activar e instalar django&lt;/li>
+&lt;li>Crear proyecto y app&lt;/li>
+&lt;li>Si no has creado un repositorio git, es el momento.&lt;/li>
+&lt;/ul>
+&lt;h2 id="modificar-plantillas-para-página-principal">Modificar plantillas para página principal&lt;/h2>
+&lt;ul>
+&lt;li>Crea un menú (navbar) &lt;a href="https://getbootstrap.com/docs/5.1/examples/navbars/">https://getbootstrap.com/docs/5.1/examples/navbars/&lt;/a>&lt;/li>
+&lt;li>Crea una página de contacto/acerca de&lt;/li>
+&lt;/ul>
+&lt;h2 id="añade-los-modelos-que-faltan">Añade los modelos que faltan&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Idiomas de los libros (modelo &lt;strong>Language&lt;/strong>)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Modelo &lt;strong>Bookinstance&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Inserta unos libros
+Revisa la documentación de &lt;a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models">https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Añade los modelos al admin&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="página-inicial">Página inicial&lt;/h2>
+&lt;p>En la página incial se verá:&lt;/p>
+&lt;ul>
+&lt;li>El menú&lt;/li>
+&lt;li>Logo o imagen en grande de la web&lt;/li>
+&lt;li>Resumen de número de libros del catálogo y número de autores&lt;/li>
+&lt;li>Últimos libros añadidos&lt;/li>
+&lt;/ul>
+&lt;h2 id="añade-una-nueva-clase-revisión-para-que-los-usuarios-puedan-valorar-un-libro">Añade una nueva clase &lt;strong>Revisión&lt;/strong> para que los usuarios puedan valorar un libro:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Usuario. Usa el modelo &lt;strong>User&lt;/strong> de Django:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">django.contrib.auth.models&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">User&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Fecha de la revisión&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Puntuación (1-5)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Texto&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Un usuario sólo puede valorar un libro una vez. Podrá modificar su valoración.&lt;/p></description></item></channel></rss>

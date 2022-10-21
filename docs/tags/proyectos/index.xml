@@ -1,0 +1,175 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Desarrollo Web Entorno Servidor – proyectos</title><link>https://lmorillas.github.io/dwes/tags/proyectos/</link><description>Recent content in proyectos on Desarrollo Web Entorno Servidor</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 21 Oct 2021 10:36:54 +0200</lastBuildDate><atom:link href="https://lmorillas.github.io/dwes/tags/proyectos/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Proyecto Django - Primer trimestre</title><link>https://lmorillas.github.io/dwes/docs/proyectos/django_1/</link><pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate><guid>https://lmorillas.github.io/dwes/docs/proyectos/django_1/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>&lt;strong>Descripción&lt;/strong>: proyecto de una web personal con altas, bajas, modificaciones y listados de datos.&lt;/p>
+&lt;/div>
+&lt;h2 id="requisitos">REQUISITOS&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>El proyecto estará gestionado en un repositorio de código git con un remoto en github. Accesible por el profesor (1 punto)&lt;/p>
+&lt;ul>
+&lt;li>Habrá una gestión correcta de cambios con comentarios claros&lt;/li>
+&lt;li>Contendrá un &lt;strong>README.md&lt;/strong> con la descripción del proyecto y un método de instalación&lt;/li>
+&lt;li>Un &lt;strong>.gitignore&lt;/strong> con las extensiones que no queremos que se suban al repositorio&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Gestión del proyecto (1 punto)&lt;/p>
+&lt;ul>
+&lt;li>Creación de un entorno virtual con &lt;strong>requirements.txt&lt;/strong> para indicar las dependencias&lt;/li>
+&lt;li>El directorio &lt;strong>env&lt;/strong> no se incluirá en el repositorio.&lt;/li>
+&lt;li>Todas las funciones y clases estarán documentadas.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Models&lt;/strong> (2 puntos)&lt;/p>
+&lt;ul>
+&lt;li>Gestión correcta de datos (tipos de datos y relaciones)&lt;/li>
+&lt;li>Al menos 3 modelos con relaciones entre ellos&lt;/li>
+&lt;li>Todos tendrán método &lt;strong>&lt;strong>str&lt;/strong>&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>urls&lt;/strong> (1 punto)&lt;/p>
+&lt;ul>
+&lt;li>Urls generales y la aplicación para listados, altas, bajas y modificaciones&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Hará uso del &lt;strong>Admin&lt;/strong> al menos para listados con filtros y búsquedas. (1 punto)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>views&lt;/strong> (2 punto)&lt;/p>
+&lt;ul>
+&lt;li>Uso de vistas tipo función y de tipo clase&lt;/li>
+&lt;li>Gestión correcta y segura de formularios&lt;/li>
+&lt;li>Las funcionalidades que modifican los datos tienen que estar limitadas a usuarios autenticados&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>templates&lt;/strong> (2 punto)&lt;/p>
+&lt;ul>
+&lt;li>Habrá herencia de una plantilla base&lt;/li>
+&lt;li>Habrá una barra de menús o sidebar en una plantilla aparte&lt;/li>
+&lt;li>bloques de contenido, extracss y extrajs&lt;/li>
+&lt;li>Gestión correcta de formularios&lt;/li>
+&lt;li>Bloques &lt;strong>if&lt;/strong> y &lt;strong>for&lt;/strong> para mostrar correctamente los datoss&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Hará una presentación de la aplicación ante los compañeros el día del examen del módulo. (1 punto)&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="fecha-limiete-de-entrega">FECHA LIMIETE DE ENTREGA&lt;/h2>
+&lt;p>8 de diciembre a las 20 horas.&lt;/p></description></item><item><title>Docs: Proyecto Django/Wagtail - Segundo trimestre</title><link>https://lmorillas.github.io/dwes/docs/proyectos/wagtail_2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lmorillas.github.io/dwes/docs/proyectos/wagtail_2/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>&lt;strong>Descripción&lt;/strong>: proyecto de una web usando el CMS Wagtail&lt;/p>
+&lt;/div>
+&lt;p>El proyecto consistirá en una web a partir de la web hecha en clase (fork del tutorial de wagtail)&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Se finalizará la estructura iniciada:&lt;/p>
+&lt;ul>
+&lt;li>gestión de páginas: padres/hijas&lt;/li>
+&lt;li>plantilla (navbar, sidebar, footer, etc)&lt;/li>
+&lt;li>El footer se podrá editar desde el CMS (snippet)&lt;/li>
+&lt;li>Añadir página de contacto.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Añadir noticias breves del sitio.&lt;/p>
+&lt;ul>
+&lt;li>Tendrán un texto y una o más imágenes.&lt;/li>
+&lt;li>Se mostrarán las 5 últimas en la primera página de forma resumida y haciendo click la noticia completa.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Posibilidad de poner un aviso en la primera página.&lt;/p>
+&lt;ul>
+&lt;li>Se mostrará debajo del menú principal si está activado&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Completar blog de clase:&lt;/p>
+&lt;ul>
+&lt;li>Habrá tres tipos de entradas de blog:
+&lt;ul>
+&lt;li>Genéricas&lt;/li>
+&lt;li>De películas. Se enlazará con una de las películas de nuestra sección de películas.&lt;/li>
+&lt;li>De viajes. Tendrá texto fotos y coordenadas. Se mostrará además del texto y las fotos un mapa con las coordenadas.&lt;/li>
+&lt;li>Otra a proponer.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Proponer organización y visualización.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Creación de una una nueva sección similar a la de las películas con en la que se instroducen datos en nuestro CMS a partir de una archivo json o csv.&lt;/p>
+&lt;ul>
+&lt;li>Documentación de la sección.&lt;/li>
+&lt;li>Script para generar la sección.&lt;/li>
+&lt;li>Posibilidad de edición en un grupo del Admin justo debajo de las películas.&lt;/li>
+&lt;li>Creación de un tipo de páginas para la sección (index y de detalle)&lt;/li>
+&lt;li>Estas páginas podrán colgar de la principal (sólo el index)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Uso de tablas</title><link>https://lmorillas.github.io/dwes/docs/proyectos/uso-tablas/</link><pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate><guid>https://lmorillas.github.io/dwes/docs/proyectos/uso-tablas/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>&lt;strong>Descripción&lt;/strong>: proyectos para visualizar centros educativos.&lt;/p>
+&lt;/div>
+&lt;h2 id="fuentes-de-datos">Fuentes de datos&lt;/h2>
+&lt;h3 id="centros-educativos">Centros Educativos&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://educa.aragon.es/buscador-de-centros#/map">Buscador de centros&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://opendata.aragon.es/datos/catalogo/dataset/directorio-de-centros-educativos-de-aragon">Directorio oficial de centros&lt;/a>&lt;/li>
+&lt;li>&lt;a href="datos_centros.json">Datos de centros&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="pelis">Pelis&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="listapelis.json">Películas&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="pasos">Pasos:&lt;/h2>
+&lt;ol>
+&lt;li>Creación de estructura (entorno, proyecto, app)&lt;/li>
+&lt;li>Estructura de datos (modelo)&lt;/li>
+&lt;li>Carga de datos (proceso de csv o json)&lt;/li>
+&lt;li>Visualización de datos:
+&lt;ul>
+&lt;li>Tablas. Explorar &lt;a href="https://djangopackages.org/grids/g/tables/?python3=1">Apps de tablas para djando&lt;/a> &lt;a href="https://django-tables2.readthedocs.io/">https://django-tables2.readthedocs.io/&lt;/a> &lt;a href="https://django-filter.readthedocs.io/">https://django-filter.readthedocs.io/&lt;/a> (Ejemplo: &lt;a href="https://www.youtube.com/watch?v=G-Rct7Na0UQ">https://www.youtube.com/watch?v=G-Rct7Na0UQ&lt;/a>)&lt;/li>
+&lt;li>Mapa. Explorar &lt;a href="https://leafletjs.com/examples/quick-start/">https://leafletjs.com/examples/quick-start/&lt;/a> &lt;a href="https://django-leaflet.readthedocs.io/">https://django-leaflet.readthedocs.io/&lt;/a> &lt;a href="http://python-visualization.github.io/folium/quickstart.html">http://python-visualization.github.io/folium/quickstart.html&lt;/a>&lt;/li>
+&lt;li>Búsquedas/selección &lt;a href="https://github.com/codingjoe/django-select2/blob/master/docs/index.rst">Select2&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Centros educativos</title><link>https://lmorillas.github.io/dwes/docs/proyectos/centros-educativos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lmorillas.github.io/dwes/docs/proyectos/centros-educativos/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>&lt;strong>Descripción&lt;/strong>: proyecto de aplicación usando el CMS Wagtail&lt;/p>
+&lt;/div>
+&lt;h2 id="objetivo">Objetivo&lt;/h2>
+&lt;p>Añadir una aplicación de centros educativos al proyecto anterior.&lt;/p>
+&lt;p>La aplicación tendrá una página principal (tipo índice) que mostrará los datos de todos los centros o una selección que pueda hacer el usuario&lt;/p>
+&lt;h2 id="datos">Datos&lt;/h2>
+&lt;p>&lt;a href="https://opendata.aragon.es/datos/catalogo/dataset/educacion-y-cultura">https://opendata.aragon.es/datos/catalogo/dataset/educacion-y-cultura&lt;/a>&lt;/p>
+&lt;p>En concreto usaremos el &lt;code>json&lt;/code> de los centros educativos de Aragón: &lt;a href="https://opendata.aragon.es/GA_OD_Core/download?view_id=167&amp;amp;formato=json">https://opendata.aragon.es/GA_OD_Core/download?view_id=167&amp;amp;formato=json&lt;/a>&lt;/p>
+&lt;h2 id="modelo-de-centros">Modelo de Centros&lt;/h2>
+&lt;p>Datos que interesan. Los sacaremos del json y los cargaremos de forma automática en la aplicación.&lt;/p>
+&lt;ul>
+&lt;li>Código del centro (idcentrorc)&lt;/li>
+&lt;li>Nombre del centro&lt;/li>
+&lt;li>Tipo de centro&lt;/li>
+&lt;li>Naturaleza (público o privado)&lt;/li>
+&lt;li>Localidad&lt;/li>
+&lt;li>Dirección&lt;/li>
+&lt;li>Código postal&lt;/li>
+&lt;li>Coordenadas (longitud y latitud)&lt;/li>
+&lt;/ul>
+&lt;h2 id="páginas">Páginas&lt;/h2>
+&lt;p>La aplicación tendrá:&lt;/p>
+&lt;ul>
+&lt;li>Una página con un tabla con el listado paginado y la posibilidad de buscar por nombre del centro o localidad.&lt;/li>
+&lt;li>Una página con el mapa de todos los centros&lt;/li>
+&lt;/ul>
+&lt;h2 id="admin">Admin&lt;/h2>
+&lt;ul>
+&lt;li>list_view tabulado con datos de nombre, código, naturaleza y localidad&lt;/li>
+&lt;li>búsqueda por nombre y localidad&lt;/li>
+&lt;li>fitro por tipo de centro y naturaleza.&lt;/li>
+&lt;/ul></description></item></channel></rss>

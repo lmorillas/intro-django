@@ -1,0 +1,9 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Desarrollo Web Entorno Servidor – inicio</title><link>https://lmorillas.github.io/dwes/tags/inicio/</link><description>Recent content in inicio on Desarrollo Web Entorno Servidor</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 21 Oct 2021 10:36:54 +0200</lastBuildDate><atom:link href="https://lmorillas.github.io/dwes/tags/inicio/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Primeros pasos</title><link>https://lmorillas.github.io/dwes/docs/wagtail/primeros_pasos/</link><pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate><guid>https://lmorillas.github.io/dwes/docs/wagtail/primeros_pasos/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Tutorial&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.wagtail.io/en/stable/getting_started/tutorial.html">https://docs.wagtail.io/en/stable/getting_started/tutorial.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;p>Sigue el tutorial inicial de Wagtail: &lt;a href="https://docs.wagtail.io/en/stable/getting_started/tutorial.html">https://docs.wagtail.io/en/stable/getting_started/tutorial.html&lt;/a>&lt;/p>
+&lt;p>Consulta las dudas que surjan en el proceso.&lt;/p></description></item></channel></rss>

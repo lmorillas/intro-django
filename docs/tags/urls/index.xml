@@ -1,0 +1,48 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Desarrollo Web Entorno Servidor – urls</title><link>https://lmorillas.github.io/dwes/tags/urls/</link><description>Recent content in urls on Desarrollo Web Entorno Servidor</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 21 Oct 2021 10:36:54 +0200</lastBuildDate><atom:link href="https://lmorillas.github.io/dwes/tags/urls/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Página inicial</title><link>https://lmorillas.github.io/dwes/docs/django/home_page/</link><pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate><guid>https://lmorillas.github.io/dwes/docs/django/home_page/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Documentación:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page">https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.djangoproject.com/en/3.2/intro/tutorial03/">https://docs.djangoproject.com/en/3.2/intro/tutorial03/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;h2 id="visión-general">Visión general&lt;/h2>
+&lt;p>&lt;img src="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page/basic-django.png" alt="Proceso de una petición">&lt;/p>
+&lt;h2 id="definiendo-urls">Definiendo URLs&lt;/h2>
+&lt;p>&lt;strong>urls.py&lt;/strong> principal:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># Redirección incial&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">django.views.generic&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">RedirectView&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">django.urls&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">include&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">path&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">django.contrib&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">admin&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">urlpatterns&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">path&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;admin/&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">admin&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">site&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">urls&lt;/span>&lt;span style="color:#000;font-weight:bold">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">path&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;catalog/&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">include&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;catalog.urls&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)),&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">path&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;/&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">RedirectView&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">as_view&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">url&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;/catalog/&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">permanent&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#204a87;font-weight:bold">True&lt;/span>&lt;span style="color:#000;font-weight:bold">)),&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#000">static&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">settings&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">STATIC_URL&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">document_root&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">settings&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">STATIC_ROOT&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Urls de nuestra app&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>catalog/ — La página home/index.&lt;/li>
+&lt;li>catalog/books/ — La lista de todos los libros.&lt;/li>
+&lt;li>catalog/authors/ — La lista de todos los autores.&lt;/li>
+&lt;li>catalog/book/&lt;id> — La vista detallada para el libro específico con un campo de clave primaria de &lt;id> (el valor por defecto). Así por ejemplo, /catalog/book/3, para el tercer libro añadido.&lt;/li>
+&lt;li>catalog/author/&lt;id> — La vista detallada para el autor específico con un campo de clave primaria llamada &lt;id>. Así por ejemplo, /catalog/author/11, para el 11vo autor añadido.&lt;/li>
+&lt;/ul>
+&lt;h2 id="crear-vista-para-pagina-inicial-del-sitio">Crear vista para pagina inicial del sitio&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">def&lt;/span> &lt;span style="color:#000">index&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">request&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="crear-plantilla">Crear plantilla&lt;/h2>
+&lt;ul>
+&lt;li>plantilla base&lt;/li>
+&lt;li>includes&lt;/li>
+&lt;li>&lt;strong>extends&lt;/strong>&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h2 id="django-debug-toolbar">Django Debug Toolbar&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://django-debug-toolbar.readthedocs.io/en/latest/installation.html">https://django-debug-toolbar.readthedocs.io/en/latest/installation.html&lt;/a>&lt;/li>
+&lt;li>&lt;code>$ pip install django-debug-toolbar &lt;/code>&lt;/li>
+&lt;li>Configurar&lt;/li>
+&lt;/ul></description></item></channel></rss>
