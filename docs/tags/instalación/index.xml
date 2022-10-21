@@ -1,92 +1,87 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Desarrollo Web Entorno Servidor – instalación</title><link>https://lmorillas.github.io/dwes/tags/instalaci%C3%B3n/</link><description>Recent content in instalación on Desarrollo Web Entorno Servidor</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 21 Oct 2021 10:36:54 +0200</lastBuildDate><atom:link href="https://lmorillas.github.io/dwes/tags/instalaci%C3%B3n/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Instalación</title><link>https://lmorillas.github.io/dwes/docs/django/instalacion/</link><pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate><guid>https://lmorillas.github.io/dwes/docs/django/instalacion/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>Instalación y configuración del entorno para desarrollo:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://docs.djangoproject.com/en/3.2/intro/install/">https://docs.djangoproject.com/en/3.2/intro/install/&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://code.visualstudio.com/docs/python/tutorial-django">https://code.visualstudio.com/docs/python/tutorial-django&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment">https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="instalación-de-python">Instalación de Python&lt;/h2>
-&lt;ul>
-&lt;li>Versión de python? &lt;a href="https://docs.djangoproject.com/en/3.2/faq/install/#faq-python-version-support">https://docs.djangoproject.com/en/3.2/faq/install/#faq-python-version-support&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.python.org/downloads/">https://www.python.org/downloads/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="configuración-de-una-base-de-datos">Configuración de una base de datos&lt;/h2>
-&lt;p>Al inicio no será necesario. Luego podremos usar PostgreSQL, MariaDB, MySQL, Oracle (&lt;a href="https://docs.djangoproject.com/en/3.2/topics/install/#database-installation">https://docs.djangoproject.com/en/3.2/topics/install/#database-installation&lt;/a>)&lt;/p>
-&lt;h2 id="entorno-virtual">Entorno virtual&lt;/h2>
-&lt;p>Creamos carpeta para el proyecto y dentro de esa carpeta:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># Linux&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install python3-venv &lt;span style="color:#8f5902;font-style:italic"># Si es necesario instalamos este módulo&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>python3 -m venv env
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># macOS&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>python3 -m venv env
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># Windows&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>python -m venv env
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Activar entorno:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># Windows&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>env&lt;span style="color:#4e9a06">\S&lt;/span>cripts&lt;span style="color:#4e9a06">\a&lt;/span>ctivate.bat
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># linux/mac&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87">source&lt;/span> tutorial-env/bin/activate
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="instalación-de-django">Instalación de Django&lt;/h2>
-&lt;p>Instalación de una versión oficial: &lt;a href="https://docs.djangoproject.com/en/3.2/topics/install/#installing-official-release">https://docs.djangoproject.com/en/3.2/topics/install/#installing-official-release&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># Linux / Mac&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ pip install Django
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># Windows&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>...&lt;span style="color:#4e9a06">\&amp;gt;&lt;/span> py -m pip install Django
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="comprobación">Comprobación&lt;/h2>
-&lt;p>Usa el intérprete de python&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">django&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span style="color:#204a87">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">django&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">get_version&lt;/span>&lt;span style="color:#000;font-weight:bold">())&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#0000cf;font-weight:bold">3.2&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="configuración-del-entorno-visual-studio-code">Configuración del entorno (Visual Studio Code)&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://code.visualstudio.com/docs/python/tutorial-django">https://code.visualstudio.com/docs/python/tutorial-django&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://docs.microsoft.com/es-es/visualstudio/python/learn-django-in-visual-studio-step-01-project-and-solution">https://docs.microsoft.com/es-es/visualstudio/python/learn-django-in-visual-studio-step-01-project-and-solution&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="browser-para-sqlite">Browser para SQLite&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://sqlitebrowser.org/dl/">https://sqlitebrowser.org/dl/&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Instalación</title><link>https://lmorillas.github.io/dwes/docs/wagtail/instalacion/</link><pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate><guid>https://lmorillas.github.io/dwes/docs/wagtail/instalacion/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>Información general de Wagtail:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://wagtail.io/">https://wagtail.io/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>Instalación:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://docs.wagtail.io/en/stable/getting_started/index.html#quick-install">https://docs.wagtail.io/en/stable/getting_started/index.html#quick-install&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;h2 id="instalación-con-un-entorno-virtual">Instalación con un entorno virtual&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># preparación directorio&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ mkdir wagtail_project &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#204a87">cd&lt;/span> wagtail_project
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># creación y activación del entorno&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ python3 -m venv env
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ &lt;span style="color:#204a87">source&lt;/span> env/bin/activate
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># instalar wagtail&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>env&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>$ pip install wagtail
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># creación de un sitio con wagtail&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>env&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>$ wagtail start wagtail_bootstrap_blog .
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># crear tablas bd&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>env&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>$ python manage.py migrate
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>env&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>$ python manage.py runserver
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>El sitio estará funcionando en http://127.0.0.1:8000/&lt;/p>
-&lt;p>Archivos creados:&lt;/p>
-&lt;pre tabindex="0">&lt;code>Dockerfile
-db.sqlite3
-env
-home
-manage.py
-requirements.txt
-search
-wagtail_bootstrap_blog
-&lt;/code>&lt;/pre>&lt;h2 id="fíjate">Fíjate:&lt;/h2>
-&lt;ol>
-&lt;li>&lt;code>Dockerfile&lt;/code> es para despliegue con docker&lt;/li>
-&lt;li>&lt;code>db.sqlite3&lt;/code> es la bbdd local&lt;/li>
-&lt;li>&lt;code>home&lt;/code> y &lt;code>search&lt;/code> son aplicaciones django que crea wagtail por defecto&lt;/li>
-&lt;/ol></description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introducción a Django – instalación</title>
+    <link>https://lmorillas.github.io/intro-django/tags/instalaci%C3%B3n/</link>
+    <description>Recent content in instalación on Introducción a Django</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 21 Oct 2021 10:36:54 +0200</lastBuildDate>
+    
+	  <atom:link href="https://lmorillas.github.io/intro-django/tags/instalaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Instalación</title>
+      <link>https://lmorillas.github.io/intro-django/docs/django/instalacion/</link>
+      <pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate>
+      
+      <guid>https://lmorillas.github.io/intro-django/docs/django/instalacion/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Instalación y configuración del entorno para desarrollo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.djangoproject.com/en/3.2/intro/install/&#34;&gt;https://docs.djangoproject.com/en/3.2/intro/install/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/python/tutorial-django&#34;&gt;https://code.visualstudio.com/docs/python/tutorial-django&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;instalación-de-python&#34;&gt;Instalación de Python&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Versión de python? &lt;a href=&#34;https://docs.djangoproject.com/en/3.2/faq/install/#faq-python-version-support&#34;&gt;https://docs.djangoproject.com/en/3.2/faq/install/#faq-python-version-support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.python.org/downloads/&#34;&gt;https://www.python.org/downloads/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;configuración-de-una-base-de-datos&#34;&gt;Configuración de una base de datos&lt;/h2&gt;
+&lt;p&gt;Al inicio no será necesario. Luego podremos usar PostgreSQL, MariaDB, MySQL, Oracle (&lt;a href=&#34;https://docs.djangoproject.com/en/3.2/topics/install/#database-installation&#34;&gt;https://docs.djangoproject.com/en/3.2/topics/install/#database-installation&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;entorno-virtual&#34;&gt;Entorno virtual&lt;/h2&gt;
+&lt;p&gt;Creamos carpeta para el proyecto y dentro de esa carpeta:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Linux&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install python3-venv    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Si es necesario instalamos este módulo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python3 -m venv env
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# macOS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python3 -m venv env
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Windows&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python -m venv env
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Activar entorno:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Windows&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;env&lt;span style=&#34;color:#4e9a06&#34;&gt;\S&lt;/span&gt;cripts&lt;span style=&#34;color:#4e9a06&#34;&gt;\a&lt;/span&gt;ctivate.bat
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# linux/mac&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; tutorial-env/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;instalación-de-django&#34;&gt;Instalación de Django&lt;/h2&gt;
+&lt;p&gt;Instalación de una versión oficial: &lt;a href=&#34;https://docs.djangoproject.com/en/3.2/topics/install/#installing-official-release&#34;&gt;https://docs.djangoproject.com/en/3.2/topics/install/#installing-official-release&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Linux / Mac&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ pip install Django
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Windows&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...&lt;span style=&#34;color:#4e9a06&#34;&gt;\&amp;gt;&lt;/span&gt; py -m pip install Django
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;comprobación&#34;&gt;Comprobación&lt;/h2&gt;
+&lt;p&gt;Usa el intérprete de python&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;django&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;django&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;get_version&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;())&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3.2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;configuración-del-entorno-visual-studio-code&#34;&gt;Configuración del entorno (Visual Studio Code)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/python/tutorial-django&#34;&gt;https://code.visualstudio.com/docs/python/tutorial-django&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/es-es/visualstudio/python/learn-django-in-visual-studio-step-01-project-and-solution&#34;&gt;https://docs.microsoft.com/es-es/visualstudio/python/learn-django-in-visual-studio-step-01-project-and-solution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;browser-para-sqlite&#34;&gt;Browser para SQLite&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sqlitebrowser.org/dl/&#34;&gt;https://sqlitebrowser.org/dl/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
