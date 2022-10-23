@@ -5,17 +5,26 @@
     <loc>https://lmorillas.github.io/intro-django/docs/practicas/migrar_de_sqlite_a_postgresql/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/intro-django/docs/http/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+    <loc>https://lmorillas.github.io/intro-django/docs/web/</loc>
+    <lastmod>2021-10-21T10:29:17+02:00</lastmod>
+  </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/web/internet/</loc>
+    <lastmod>2021-10-21T10:29:17+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django-2/salidacsv/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+  </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/web/dns/</loc>
+    <lastmod>2021-10-21T10:29:17+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/instalacion/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+  </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/web/http/</loc>
+    <lastmod>2021-10-21T10:29:17+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/creacion-proyecto-app/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
@@ -32,14 +41,11 @@
     <loc>https://lmorillas.github.io/intro-django/docs/django/sitio_administrativo/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/intro-django/docs/http/requests/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+    <loc>https://lmorillas.github.io/intro-django/docs/web/requests/</loc>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/intro-django/docs/http/mensajes/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
-  </url><url>
-    <loc>https://lmorillas.github.io/intro-django/docs/http/responses/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+    <loc>https://lmorillas.github.io/intro-django/docs/web/responses/</loc>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django-2/tests/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
@@ -56,6 +62,9 @@
     <loc>https://lmorillas.github.io/intro-django/docs/django/ejercicios_repaso/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/web/mensajes/</loc>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
+  </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/generic-views/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
@@ -68,8 +77,8 @@
     <loc>https://lmorillas.github.io/intro-django/docs/django/formularios_crispy/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/intro-django/docs/http/sesion/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+    <loc>https://lmorillas.github.io/intro-django/docs/web/sesion/</loc>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django-2/utilidades/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
@@ -94,6 +103,9 @@
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/practicas/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+  </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/web/como-funciona-internet/</loc>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/tags/autenticaci%C3%B3n/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>

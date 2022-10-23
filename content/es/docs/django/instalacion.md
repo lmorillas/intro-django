@@ -9,14 +9,13 @@ tags: [django, instalación]
 
 {{% pageinfo %}}
 Instalación y configuración del entorno para desarrollo:
-* https://docs.djangoproject.com/en/3.2/intro/install/
+* https://docs.djangoproject.com/en/4.1/intro/install/
 * https://code.visualstudio.com/docs/python/tutorial-django
 * https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment
-  
 {{% /pageinfo %}}
 
 ## Instalación de Python
-* Versión de python? https://docs.djangoproject.com/en/3.2/faq/install/#faq-python-version-support
+* Versión de python? https://docs.djangoproject.com/en/4.1/faq/install/#faq-python-version-support
 * https://www.python.org/downloads/
 
 ## Configuración de una base de datos
@@ -30,14 +29,13 @@ Creamos carpeta para el proyecto y dentro de esa carpeta:
 
 ```bash
 # Linux
-sudo apt-get install python3-venv    # Si es necesario instalamos este módulo
 python3 -m venv env
 
 # macOS
 python3 -m venv env
 
 # Windows
-python -m venv env
+py -m venv env
 ```
 Activar entorno:
 
@@ -68,7 +66,7 @@ Usa el intérprete de python
 ```python
 >>> import django
 >>> print(django.get_version())
-3.2
+4.1
 ```
 
 ## Configuración del entorno (Visual Studio Code)

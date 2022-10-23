@@ -9,11 +9,11 @@ tags:
 
 {{% pageinfo %}}
 Documentación: 
-* https://docs.djangoproject.com/en/3.2/intro/tutorial02/
+* https://docs.djangoproject.com/en/4.1/intro/tutorial02/
 * https://developer.mozilla.org/es/docs/Learn/Server-side/Django/Models 
 {{% /pageinfo %}}
 
-![Base de datos](https://mdn.mozillademos.org/files/15646/local_library_model_uml.png)
+![Base de datos](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models/local_library_model_uml.svg)
 
 
 ## Trabajando con modelos
@@ -38,5 +38,5 @@ Documentación:
 
 ## Fixtures 
 * https://github.com/graevskiy/local_library/blob/master/catalog/fixtures/dump.json
-* https://docs.djangoproject.com/en/3.2/howto/initial-data/
-* https://docs.djangoproject.com/en/3.2/ref/django-admin/#django-admin-loaddata
+* https://docs.djangoproject.com/en/4.1/howto/initial-data/
+* https://docs.djangoproject.com/en/4.1/ref/django-admin/#django-admin-loaddata

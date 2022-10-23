@@ -1,16 +1,15 @@
 ---
-title: "HTTP"
+title: "Hyper Text Transfer Protocol"
+linkTitle: http
 date: 2021-10-21T10:29:17+02:00
-linkTitle: "HTTP"
-weight: 1
+weight: 5
 description: >
-  Typertext Transfer Protocol
+  Componentes internet
 ---
 
 {{% pageinfo %}}
 ## Contenidos
-* HTTP
-
+* protocolo HTTP
 {{% /pageinfo %}}
 
 ## Documentación base
@@ -23,3 +22,7 @@ description: >
 
 ## Componentes
 ![Componentes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/client-server-chain.png)
+* Cliente
+* Servidor Web
+* Proxies
+  

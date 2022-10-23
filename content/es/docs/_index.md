@@ -1,7 +1,5 @@
-
 ---
 title: "Recursos"
-linkTitle: ""
 weight: 20
 
 menu:
