@@ -6,6 +6,10 @@ linkTitle: "Django"
 weight: 4
 description: >
   Desarrollo web con Django: "The web framework for perfectionists with deadlines"
+
+docs: >
+ * https://cs50.harvard.edu/web/2020/notes/3/
+ * https://cloud.google.com/python/django
 ---
 
 ## ¿Qué es Django?
