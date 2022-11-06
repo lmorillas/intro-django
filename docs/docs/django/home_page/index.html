@@ -33,7 +33,7 @@
 <meta itemprop="description" content="Urls, vistas, plantillas
 "><meta itemprop="datePublished" content="2021-10-21T10:36:54+02:00" />
 <meta itemprop="dateModified" content="2022-10-21T19:48:09+02:00" />
-<meta itemprop="wordCount" content="144">
+<meta itemprop="wordCount" content="132">
 <meta itemprop="keywords" content="view,template,urls," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Página inicial"/>
 <meta name="twitter:description" content="Urls, vistas, plantillas
@@ -166,6 +166,14 @@
   <input type="checkbox" id="m-intro-djangodocsdjangohome_page-check" checked/>
   <label for="m-intro-djangodocsdjangohome_page-check"><a href="/intro-django/docs/django/home_page/" class="align-left pl-0  active td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjangohome_page"><span class="td-sidebar-nav-active-item">Página inicial</span></a></label>
   
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocsdjangoplantillas-li">
+  <input type="checkbox" id="m-intro-djangodocsdjangoplantillas-check"/>
+  <label for="m-intro-djangodocsdjangoplantillas-check"><a href="/intro-django/docs/django/plantillas/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjangoplantillas"><span class="">Plantillas</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocsdjangodebug-toolbar-li">
+  <input type="checkbox" id="m-intro-djangodocsdjangodebug-toolbar-check"/>
+  <label for="m-intro-djangodocsdjangodebug-toolbar-check"><a href="/intro-django/docs/django/debug-toolbar/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjangodebug-toolbar"><span class="">Debug toolbar</span></a></label>
+  
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocsdjangoejercicios_repaso-li">
   <input type="checkbox" id="m-intro-djangodocsdjangoejercicios_repaso-check"/>
   <label for="m-intro-djangodocsdjangoejercicios_repaso-check"><a href="/intro-django/docs/django/ejercicios_repaso/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjangoejercicios_repaso"><span class="">Ejercicios repaso y profundización</span></a></label>
@@ -264,8 +272,7 @@
     <li><a href="#visión-general">Visión general</a></li>
     <li><a href="#definiendo-urls">Definiendo URLs</a></li>
     <li><a href="#crear-vista-para-pagina-inicial-del-sitio">Crear vista para pagina inicial del sitio</a></li>
-    <li><a href="#crear-plantilla">Crear plantilla</a></li>
-    <li><a href="#django-debug-toolbar">Django Debug Toolbar</a></li>
+    <li><a href="#reproduce-este-modelo">Reproduce este modelo</a></li>
   </ul>
 </nav></div>
 
@@ -324,11 +331,11 @@
         
           <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/sesiones/" data-taxonomy-term="sesiones"><span class="taxonomy-label">Sesiones</span><span class="taxonomy-count">1</span></a></li>
         
-          <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/template/" data-taxonomy-term="template"><span class="taxonomy-label">template</span><span class="taxonomy-count">1</span></a></li>
+          <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/template/" data-taxonomy-term="template"><span class="taxonomy-label">template</span><span class="taxonomy-count">2</span></a></li>
         
-          <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/urls/" data-taxonomy-term="urls"><span class="taxonomy-label">urls</span><span class="taxonomy-count">1</span></a></li>
+          <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/urls/" data-taxonomy-term="urls"><span class="taxonomy-label">urls</span><span class="taxonomy-count">2</span></a></li>
         
-          <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/view/" data-taxonomy-term="view"><span class="taxonomy-label">view</span><span class="taxonomy-count">1</span></a></li>
+          <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/view/" data-taxonomy-term="view"><span class="taxonomy-label">view</span><span class="taxonomy-count">2</span></a></li>
         
           <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/vistas-gen%C3%A9ricas/" data-taxonomy-term="vistas-gen%C3%A9ricas"><span class="taxonomy-label">Vistas genéricas</span><span class="taxonomy-count">1</span></a></li>
         
@@ -426,19 +433,8 @@
 </span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">index</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">request</span><span style="color:#000;font-weight:bold">):</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#ce5c00;font-weight:bold">...</span>
-</span></span></code></pre></div><h2 id="crear-plantilla">Crear plantilla</h2>
-<ul>
-<li>plantilla base</li>
-<li>includes</li>
-<li><strong>extends</strong></li>
-<li></li>
-</ul>
-<h2 id="django-debug-toolbar">Django Debug Toolbar</h2>
-<ul>
-<li><a href="https://django-debug-toolbar.readthedocs.io/en/latest/installation.html">https://django-debug-toolbar.readthedocs.io/en/latest/installation.html</a></li>
-<li><code>$ pip install django-debug-toolbar </code></li>
-<li>Configurar</li>
-</ul>
+</span></span></code></pre></div><h2 id="reproduce-este-modelo">Reproduce este modelo</h2>
+<p><img src="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page/index_page_ok.png" alt="Locallibrary"></p>
 
 	
 	

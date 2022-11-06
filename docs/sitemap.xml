@@ -18,7 +18,7 @@
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/</loc>
-    <lastmod>2022-10-23T20:37:03+02:00</lastmod>
+    <lastmod>2022-11-01T21:29:12+01:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/instalacion/</loc>
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
@@ -36,7 +36,7 @@
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/modelos/</loc>
-    <lastmod>2022-10-23T20:37:03+02:00</lastmod>
+    <lastmod>2022-11-01T21:29:12+01:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/sitio_administrativo/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
@@ -55,6 +55,12 @@
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/home_page/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+  </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/django/plantillas/</loc>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
+  </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/django/debug-toolbar/</loc>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django-2/backup/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>

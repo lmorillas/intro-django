@@ -29,7 +29,7 @@
 &lt;p&gt;Documentación:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.djangoproject.com/en/3.2/topics/class-based-views/generic-display/&#34;&gt;https://docs.djangoproject.com/en/3.2/topics/class-based-views/generic-display/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.djangoproject.com/en/4.1/topics/class-based-views/generic-display/&#34;&gt;https://docs.djangoproject.com/en/4.1/topics/class-based-views/generic-display/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;/div&gt;
@@ -63,7 +63,7 @@
 &lt;li&gt;La vista genérica consultará a la base de datos para obtener todos los registros del modelo especificado (Book)&lt;/li&gt;
 &lt;li&gt;renderizará una plantilla ubicada en &lt;strong&gt;/biblioteca/catalogo/templates/catalogo/book_list.html&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Dentro de la plantilla puedes acceder a la lista de libros mediante la variable de plantilla llamada &lt;strong&gt;object_list&lt;/strong&gt; O &lt;strong&gt;book_list&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Paginación: Añade un &lt;strong&gt;page_obj&lt;/strong&gt; al contexto &lt;a href=&#34;https://docs.djangoproject.com/en/3.2/topics/pagination/&#34;&gt;https://docs.djangoproject.com/en/3.2/topics/pagination/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Paginación: Añade un &lt;strong&gt;page_obj&lt;/strong&gt; al contexto &lt;a href=&#34;https://docs.djangoproject.com/en/4.1/topics/pagination/&#34;&gt;https://docs.djangoproject.com/en/4.1/topics/pagination/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Estos datos se pueden sobreescribir:&lt;/p&gt;
 &lt;ul&gt;

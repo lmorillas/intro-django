@@ -18,37 +18,38 @@
 <link rel="icon" type="image/png" href="/intro-django/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/intro-django/favicons/android-192x192.png" sizes="192x192">
 
-<title>Responses | Introducción a Django</title>
+<title>Debug toolbar | Introducción a Django</title>
 <meta name="description" content="
 
 
-Documentación
+Documentación:
 
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#responses
-
-
+https://django-debug-toolbar.readthedocs.io/en/latest/
 
 
-Responses consist of the following elements:
 
-La versión …">
-<meta property="og:title" content="Responses" />
-<meta property="og:description" content=" Documentación
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#responses Responses consist of the following elements: La versión del protocolo HTTP que están usando. Un código de estado: exito (200), error (404), redirección (301), etc. Un mensaje de estado, una breve descripción del código de estado. Cabeceras HTTP, como las de las peticiones. Opcionalmente, el recurso que se ha pedido. Investígalo con las DevTools " />
+
+Instalación
+pip install django-debug-toolbar
+Prerrequisitos
+# …">
+<meta property="og:title" content="Debug toolbar" />
+<meta property="og:description" content="Documentación:
+https://django-debug-toolbar.readthedocs.io/en/latest/ Instalación pip install django-debug-toolbar Prerrequisitos # settings.py INSTALLED_APPS = [ &#34;django.contrib.staticfiles&#34;, ] STATIC_URL = &#34;static/&#34; TEMPLATES = [ { &#34;BACKEND&#34;: &#34;django.template.backends.django.DjangoTemplates&#34;, &#34;APP_DIRS&#34;: True, # ... } ] Instalar la app INSTALLED_APPS = [ # ... &#34;debug_toolbar&#34;, # ... ] Añadir las urls from django.urls import include, path urlpatterns = [ # ... path(&#39;__debug__/&#39;, include(&#39;debug_toolbar.urls&#39;)), ] Añadir el Middleware MIDDLEWARE = [ # ... &#34;debug_toolbar.middleware.DebugToolbarMiddleware&#34;, # ... ] Configurar internal ips INTERNAL_IPS = [ # ." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lmorillas.github.io/intro-django/docs/web/responses/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="https://lmorillas.github.io/intro-django/docs/django/debug-toolbar/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2021-10-21T10:36:54+02:00" />
-<meta property="article:modified_time" content="2022-10-23T20:37:03+02:00" /><meta property="og:site_name" content="Introducción a Django" />
+<meta property="article:modified_time" content="2021-10-21T10:36:54+02:00" /><meta property="og:site_name" content="Introducción a Django" />
 
-<meta itemprop="name" content="Responses">
-<meta itemprop="description" content=" Documentación
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#responses Responses consist of the following elements: La versión del protocolo HTTP que están usando. Un código de estado: exito (200), error (404), redirección (301), etc. Un mensaje de estado, una breve descripción del código de estado. Cabeceras HTTP, como las de las peticiones. Opcionalmente, el recurso que se ha pedido. Investígalo con las DevTools "><meta itemprop="datePublished" content="2021-10-21T10:36:54+02:00" />
-<meta itemprop="dateModified" content="2022-10-23T20:37:03+02:00" />
-<meta itemprop="wordCount" content="56">
+<meta itemprop="name" content="Debug toolbar">
+<meta itemprop="description" content="Documentación:
+https://django-debug-toolbar.readthedocs.io/en/latest/ Instalación pip install django-debug-toolbar Prerrequisitos # settings.py INSTALLED_APPS = [ &#34;django.contrib.staticfiles&#34;, ] STATIC_URL = &#34;static/&#34; TEMPLATES = [ { &#34;BACKEND&#34;: &#34;django.template.backends.django.DjangoTemplates&#34;, &#34;APP_DIRS&#34;: True, # ... } ] Instalar la app INSTALLED_APPS = [ # ... &#34;debug_toolbar&#34;, # ... ] Añadir las urls from django.urls import include, path urlpatterns = [ # ... path(&#39;__debug__/&#39;, include(&#39;debug_toolbar.urls&#39;)), ] Añadir el Middleware MIDDLEWARE = [ # ... &#34;debug_toolbar.middleware.DebugToolbarMiddleware&#34;, # ... ] Configurar internal ips INTERNAL_IPS = [ # ."><meta itemprop="datePublished" content="2021-10-21T10:36:54+02:00" />
+<meta itemprop="dateModified" content="2021-10-21T10:36:54+02:00" />
+<meta itemprop="wordCount" content="81">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Responses"/>
-<meta name="twitter:description" content=" Documentación
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#responses Responses consist of the following elements: La versión del protocolo HTTP que están usando. Un código de estado: exito (200), error (404), redirección (301), etc. Un mensaje de estado, una breve descripción del código de estado. Cabeceras HTTP, como las de las peticiones. Opcionalmente, el recurso que se ha pedido. Investígalo con las DevTools "/>
+<meta name="twitter:title" content="Debug toolbar"/>
+<meta name="twitter:description" content="Documentación:
+https://django-debug-toolbar.readthedocs.io/en/latest/ Instalación pip install django-debug-toolbar Prerrequisitos # settings.py INSTALLED_APPS = [ &#34;django.contrib.staticfiles&#34;, ] STATIC_URL = &#34;static/&#34; TEMPLATES = [ { &#34;BACKEND&#34;: &#34;django.template.backends.django.DjangoTemplates&#34;, &#34;APP_DIRS&#34;: True, # ... } ] Instalar la app INSTALLED_APPS = [ # ... &#34;debug_toolbar&#34;, # ... ] Añadir las urls from django.urls import include, path urlpatterns = [ # ... path(&#39;__debug__/&#39;, include(&#39;debug_toolbar.urls&#39;)), ] Añadir el Middleware MIDDLEWARE = [ # ... &#34;debug_toolbar.middleware.DebugToolbarMiddleware&#34;, # ... ] Configurar internal ips INTERNAL_IPS = [ # ."/>
 
 
 
@@ -109,8 +110,8 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#responses Responses c
       <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-intro-djangodocs-li">
   <a href="/intro-django/docs/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-intro-djangodocs"><span class="">Recursos</span></a>
   <ul class="ul-1">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-intro-djangodocsweb-li">
-  <input type="checkbox" id="m-intro-djangodocsweb-check" checked/>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-intro-djangodocsweb-li">
+  <input type="checkbox" id="m-intro-djangodocsweb-check"/>
   <label for="m-intro-djangodocsweb-check"><a href="/intro-django/docs/web/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-intro-djangodocsweb"><span class="">Aplicaciones Web</span></a></label>
   
   <ul class="ul-2 foldable">
@@ -130,9 +131,9 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#responses Responses c
   <input type="checkbox" id="m-intro-djangodocswebrequests-check"/>
   <label for="m-intro-djangodocswebrequests-check"><a href="/intro-django/docs/web/requests/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-intro-djangodocswebrequests"><span class="">Requests</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-intro-djangodocswebresponses-li">
-  <input type="checkbox" id="m-intro-djangodocswebresponses-check" checked/>
-  <label for="m-intro-djangodocswebresponses-check"><a href="/intro-django/docs/web/responses/" class="align-left pl-0  active td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocswebresponses"><span class="td-sidebar-nav-active-item">Responses</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocswebresponses-li">
+  <input type="checkbox" id="m-intro-djangodocswebresponses-check"/>
+  <label for="m-intro-djangodocswebresponses-check"><a href="/intro-django/docs/web/responses/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocswebresponses"><span class="">Responses</span></a></label>
   
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocswebmensajes-li">
   <input type="checkbox" id="m-intro-djangodocswebmensajes-check"/>
@@ -148,8 +149,8 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#responses Responses c
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-intro-djangodocsdjango-li">
-  <input type="checkbox" id="m-intro-djangodocsdjango-check"/>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-intro-djangodocsdjango-li">
+  <input type="checkbox" id="m-intro-djangodocsdjango-check" checked/>
   <label for="m-intro-djangodocsdjango-check"><a href="/intro-django/docs/django/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-intro-djangodocsdjango"><span class="">Django</span></a></label>
   
   <ul class="ul-2 foldable">
@@ -181,9 +182,9 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#responses Responses c
   <input type="checkbox" id="m-intro-djangodocsdjangoplantillas-check"/>
   <label for="m-intro-djangodocsdjangoplantillas-check"><a href="/intro-django/docs/django/plantillas/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjangoplantillas"><span class="">Plantillas</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocsdjangodebug-toolbar-li">
-  <input type="checkbox" id="m-intro-djangodocsdjangodebug-toolbar-check"/>
-  <label for="m-intro-djangodocsdjangodebug-toolbar-check"><a href="/intro-django/docs/django/debug-toolbar/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjangodebug-toolbar"><span class="">Debug toolbar</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-intro-djangodocsdjangodebug-toolbar-li">
+  <input type="checkbox" id="m-intro-djangodocsdjangodebug-toolbar-check" checked/>
+  <label for="m-intro-djangodocsdjangodebug-toolbar-check"><a href="/intro-django/docs/django/debug-toolbar/" class="align-left pl-0  active td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjangodebug-toolbar"><span class="td-sidebar-nav-active-item">Debug toolbar</span></a></label>
   
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocsdjangoejercicios_repaso-li">
   <input type="checkbox" id="m-intro-djangodocsdjangoejercicios_repaso-check"/>
@@ -280,8 +281,12 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#responses Responses c
 
 <div class="td-toc"><nav id="TableOfContents">
   <ul>
-    <li><a href="#responses-consist-of-the-following-elements">Responses consist of the following elements:</a></li>
-    <li><a href="#investígalo-con-las-devtools">Investígalo con las DevTools</a></li>
+    <li><a href="#instalación">Instalación</a></li>
+    <li><a href="#prerrequisitos">Prerrequisitos</a></li>
+    <li><a href="#instalar-la-app">Instalar la app</a></li>
+    <li><a href="#añadir-las-urls">Añadir las urls</a></li>
+    <li><a href="#añadir-el-middleware">Añadir el Middleware</a></li>
+    <li><a href="#configurar-internal-ips">Configurar internal ips</a></li>
   </ul>
 </nav></div>
 
@@ -365,16 +370,16 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#responses Responses c
     <a href="https://lmorillas.github.io/intro-django/docs/">Recursos</a>
   </li>
   <li class="breadcrumb-item">
-    <a href="https://lmorillas.github.io/intro-django/docs/web/">Aplicaciones Web</a>
+    <a href="https://lmorillas.github.io/intro-django/docs/django/">Django</a>
   </li>
   <li class="breadcrumb-item active" aria-current="page">
-    <a href="https://lmorillas.github.io/intro-django/docs/web/responses/" aria-disabled="true" class="btn-link disabled">Responses</a>
+    <a href="https://lmorillas.github.io/intro-django/docs/django/debug-toolbar/" aria-disabled="true" class="btn-link disabled">Debug toolbar</a>
   </li>
   </ol>
 </nav>
             
 <div class="td-content">
-	<h1>Responses</h1>
+	<h1>Debug toolbar</h1>
 	
 	<header class="article-meta">
 		
@@ -394,29 +399,60 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#responses Responses c
 	
 
 <div class="pageinfo pageinfo-primary">
-<p>Documentación</p>
+<p>Documentación:</p>
 <ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#responses">https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#responses</a></li>
+<li><a href="https://django-debug-toolbar.readthedocs.io/en/latest/">https://django-debug-toolbar.readthedocs.io/en/latest/</a></li>
 </ul>
 
 </div>
 
-<h2 id="responses-consist-of-the-following-elements">Responses consist of the following elements:</h2>
-<ul>
-<li>La versión del protocolo HTTP que están usando.</li>
-<li>Un código de estado: exito (200), error (404), redirección (301), etc.</li>
-<li>Un mensaje de estado, una breve descripción del código de estado.</li>
-<li>Cabeceras HTTP, como las de las peticiones.</li>
-<li>Opcionalmente, el recurso que se ha pedido.</li>
-</ul>
-<h2 id="investígalo-con-las-devtools">Investígalo con las DevTools</h2>
-
+<h2 id="instalación">Instalación</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install django-debug-toolbar
+</span></span></code></pre></div><h2 id="prerrequisitos">Prerrequisitos</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># settings.py</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">INSTALLED_APPS</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">&#34;django.contrib.staticfiles&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000">STATIC_URL</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;static/&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000">TEMPLATES</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#4e9a06">&#34;BACKEND&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;django.template.backends.django.DjangoTemplates&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#4e9a06">&#34;APP_DIRS&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#204a87;font-weight:bold">True</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#8f5902;font-style:italic"># ...</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">]</span>
+</span></span></code></pre></div><h2 id="instalar-la-app">Instalar la app</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#000">INSTALLED_APPS</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic"># ...</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">&#34;debug_toolbar&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic"># ...</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">]</span>
+</span></span></code></pre></div><h2 id="añadir-las-urls">Añadir las urls</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">django.urls</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">include</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">path</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000">urlpatterns</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic"># ...</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">path</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;__debug__/&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">include</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;debug_toolbar.urls&#39;</span><span style="color:#000;font-weight:bold">)),</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">]</span>
+</span></span></code></pre></div><h2 id="añadir-el-middleware">Añadir el Middleware</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#000">MIDDLEWARE</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic"># ...</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">&#34;debug_toolbar.middleware.DebugToolbarMiddleware&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic"># ...</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">]</span>
+</span></span></code></pre></div><h2 id="configurar-internal-ips">Configurar internal ips</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#000">INTERNAL_IPS</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic"># ...</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">&#34;127.0.0.1&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic"># ...</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">]</span>
+</span></span></code></pre></div>
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">
-  Última modificación October 23, 2022: <a href="https://github.com/lmorillas/dwes/commit/d0c20a44a50ffbdd7f7d9e56a3923a82768335ea">intro django y http (d0c20a4)</a>
-</div>
-
+	
 </div>
 
 

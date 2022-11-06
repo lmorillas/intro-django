@@ -51,15 +51,6 @@ def index(request):
     ...
 ```
 
-## Crear plantilla
+## Reproduce este modelo
 
-* plantilla base
-* includes
-* **extends**
-* 
-
-## Django Debug Toolbar
-
-* https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
-* ```$ pip install django-debug-toolbar ```
-* Configurar
+![Locallibrary](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page/index_page_ok.png)
