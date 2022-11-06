@@ -54,3 +54,4 @@ def index(request):
 ## Reproduce este modelo
 
 ![Locallibrary](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page/index_page_ok.png)
+

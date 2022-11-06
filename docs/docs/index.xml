@@ -1047,6 +1047,19 @@ Ejecuta:&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;mover-navbar-a-include&#34;&gt;Mover Navbar a include&lt;/h3&gt;
 &lt;h3 id=&#34;corregir-urls&#34;&gt;Corregir urls&lt;/h3&gt;
 &lt;h3 id=&#34;logo&#34;&gt;Logo&lt;/h3&gt;
+&lt;h3 id=&#34;pagina-de-inicio&#34;&gt;Pagina de inicio&lt;/h3&gt;
+&lt;p&gt;Elige un modelo&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://getbootstrap.com/docs/5.2/examples/cover/&#34;&gt;https://getbootstrap.com/docs/5.2/examples/cover/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://getbootstrap.com/docs/5.2/examples/heroes/&#34;&gt;https://getbootstrap.com/docs/5.2/examples/heroes/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Imágenes:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Librarian.svg&#34;&gt;https://commons.wikimedia.org/wiki/File:Librarian.svg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Library.svg&#34;&gt;https://commons.wikimedia.org/wiki/File:Library.svg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://commons.wikimedia.org/w/index.php?search=Library&amp;amp;title=Special:MediaSearch&amp;amp;type=image&amp;amp;filemime=svg&#34;&gt;Más imágenes de wikimedia commons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>

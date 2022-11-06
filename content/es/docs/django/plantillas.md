@@ -139,3 +139,11 @@ Documentación:
 
 ### Logo
 
+### Pagina de inicio
+Elige un modelo
+* https://getbootstrap.com/docs/5.2/examples/cover/
+* https://getbootstrap.com/docs/5.2/examples/heroes/
+* Imágenes: 
+  * https://commons.wikimedia.org/wiki/File:Librarian.svg
+  * https://commons.wikimedia.org/wiki/File:Library.svg
+  * [Más imágenes de wikimedia commons](https://commons.wikimedia.org/w/index.php?search=Library&title=Special:MediaSearch&type=image&filemime=svg)
