@@ -1425,6 +1425,31 @@ Revisa la documentación de &lt;a href=&#34;https://developer.mozilla.org/en-US/
     </item>
     
     <item>
+      <title>Docs: Favicons</title>
+      <link>https://lmorillas.github.io/intro-django/docs/django/favicon/</link>
+      <pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate>
+      
+      <guid>https://lmorillas.github.io/intro-django/docs/django/favicon/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Documentación:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.accordbox.com/blog/django-favicon-guide/&#34;&gt;https://www.accordbox.com/blog/django-favicon-guide/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kiroule.com/article/add-favicon-to-hugo-based-website/&#34;&gt;https://www.kiroule.com/article/add-favicon-to-hugo-based-website/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ejemplo con Hugo: &lt;a href=&#34;https://www.docsy.dev/docs/adding-content/iconsimages/#add-your-favicons&#34;&gt;https://www.docsy.dev/docs/adding-content/iconsimages/#add-your-favicons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Formularios</title>
       <link>https://lmorillas.github.io/intro-django/docs/django/formularios/</link>
       <pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate>
