@@ -61,3 +61,45 @@ Estos datos se pueden sobreescribir:
 * queryset
 * template_name
 
+Métodos que podemos sobreescribir:
+* get_queryset
+* get_context_data
+
+## Ejemplo context_data
+
+```python
+
+from django.utils import timezone
+from django.views.generic.detail import DetailView
+
+from catalog.models import Book
+
+class BookDetailView(DetailView):
+
+    model = Book
+
+    def get_context_data(self, **kwargs):
+        ''' Devuelve el contexto para la plantilla '''
+        context = super().get_context_data(**kwargs)
+        context['now'] = timezone.now()
+        return context
+```
+**/biblioteca/catalogo/templates/catalogo/book_detail.html**
+
+```html
+<!-- Dentro de nuestra plantilla para mostrar la fecha actual: -->
+<p>Date: {{ now|date }}</p>
+```
+
+## Tareas
+
+```sh
+/catalog/books  # Lista de libros
+/catalog/books/1  # Detalle del libro con id 1
+/catalog/authors  # Lista de autores
+/catalog/authors/1  # Detalle del autor con id 1
+/catalog/search  # Formulario de búsqueda de libros (en título, autor por lo menos)
+```
+
+## Ideas paginación & bootstrap
+* https://ourcodeworld.com/articles/read/1757/how-to-implement-a-paginator-in-a-django-class-based-listview-compatible-with-bootstrap-5
