@@ -18,25 +18,25 @@
 <link rel="icon" type="image/png" href="/intro-django/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/intro-django/favicons/android-192x192.png" sizes="192x192">
 
-<title>Generación de archivos CSV | Introducción a Django</title>
-<meta name="description" content="Generación de salida csv
+<title>Vistas Genéricas | Introducción a Django</title>
+<meta name="description" content="Formularios
 ">
-<meta property="og:title" content="Generación de archivos CSV" />
-<meta property="og:description" content="Generación de salida csv
+<meta property="og:title" content="Vistas Genéricas" />
+<meta property="og:description" content="Formularios
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lmorillas.github.io/intro-django/docs/django-2/salidacsv/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="https://lmorillas.github.io/intro-django/docs/django/formularios/genericview/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2021-10-21T10:36:54+02:00" />
-<meta property="article:modified_time" content="2022-10-21T19:48:09+02:00" /><meta property="og:site_name" content="Introducción a Django" />
+<meta property="article:modified_time" content="2021-10-21T10:36:54+02:00" /><meta property="og:site_name" content="Introducción a Django" />
 
-<meta itemprop="name" content="Generación de archivos CSV">
-<meta itemprop="description" content="Generación de salida csv
+<meta itemprop="name" content="Vistas Genéricas">
+<meta itemprop="description" content="Formularios
 "><meta itemprop="datePublished" content="2021-10-21T10:36:54+02:00" />
-<meta itemprop="dateModified" content="2022-10-21T19:48:09+02:00" />
-<meta itemprop="wordCount" content="51">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Generación de archivos CSV"/>
-<meta name="twitter:description" content="Generación de salida csv
+<meta itemprop="dateModified" content="2021-10-21T10:36:54+02:00" />
+<meta itemprop="wordCount" content="149">
+<meta itemprop="keywords" content="Formularios," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Vistas Genéricas"/>
+<meta name="twitter:description" content="Formularios
 "/>
 
 
@@ -137,8 +137,8 @@
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-intro-djangodocsdjango-li">
-  <input type="checkbox" id="m-intro-djangodocsdjango-check"/>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-intro-djangodocsdjango-li">
+  <input type="checkbox" id="m-intro-djangodocsdjango-check" checked/>
   <label for="m-intro-djangodocsdjango-check"><a href="/intro-django/docs/django/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-intro-djangodocsdjango"><span class="">Django</span></a></label>
   
   <ul class="ul-2 foldable">
@@ -190,8 +190,8 @@
   <input type="checkbox" id="m-intro-djangodocsdjangofavicon-check"/>
   <label for="m-intro-djangodocsdjangofavicon-check"><a href="/intro-django/docs/django/favicon/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjangofavicon"><span class="">Favicons</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-intro-djangodocsdjangoformularios-li">
-  <input type="checkbox" id="m-intro-djangodocsdjangoformularios-check"/>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-intro-djangodocsdjangoformularios-li">
+  <input type="checkbox" id="m-intro-djangodocsdjangoformularios-check" checked/>
   <label for="m-intro-djangodocsdjangoformularios-check"><a href="/intro-django/docs/django/formularios/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-intro-djangodocsdjangoformularios"><span class="">Formularios</span></a></label>
   
   <ul class="ul-3 foldable">
@@ -207,9 +207,9 @@
   <input type="checkbox" id="m-intro-djangodocsdjangoformulariosmodelform-check"/>
   <label for="m-intro-djangodocsdjangoformulariosmodelform-check"><a href="/intro-django/docs/django/formularios/modelform/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjangoformulariosmodelform"><span class="">ModelForm</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocsdjangoformulariosgenericview-li">
-  <input type="checkbox" id="m-intro-djangodocsdjangoformulariosgenericview-check"/>
-  <label for="m-intro-djangodocsdjangoformulariosgenericview-check"><a href="/intro-django/docs/django/formularios/genericview/" title="Vistas Genéricas" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjangoformulariosgenericview"><span class="">GenericView</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-intro-djangodocsdjangoformulariosgenericview-li">
+  <input type="checkbox" id="m-intro-djangodocsdjangoformulariosgenericview-check" checked/>
+  <label for="m-intro-djangodocsdjangoformulariosgenericview-check"><a href="/intro-django/docs/django/formularios/genericview/" title="Vistas Genéricas" class="align-left pl-0  active td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjangoformulariosgenericview"><span class="td-sidebar-nav-active-item">GenericView</span></a></label>
   
 </li>
   </ul>
@@ -239,14 +239,14 @@
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-intro-djangodocsdjango-2-li">
-  <input type="checkbox" id="m-intro-djangodocsdjango-2-check" checked/>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-intro-djangodocsdjango-2-li">
+  <input type="checkbox" id="m-intro-djangodocsdjango-2-check"/>
   <label for="m-intro-djangodocsdjango-2-check"><a href="/intro-django/docs/django-2/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-intro-djangodocsdjango-2"><span class="">Django2</span></a></label>
   
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-intro-djangodocsdjango-2salidacsv-li">
-  <input type="checkbox" id="m-intro-djangodocsdjango-2salidacsv-check" checked/>
-  <label for="m-intro-djangodocsdjango-2salidacsv-check"><a href="/intro-django/docs/django-2/salidacsv/" class="align-left pl-0  active td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjango-2salidacsv"><span class="td-sidebar-nav-active-item">Generación de archivos CSV</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocsdjango-2salidacsv-li">
+  <input type="checkbox" id="m-intro-djangodocsdjango-2salidacsv-check"/>
+  <label for="m-intro-djangodocsdjango-2salidacsv-check"><a href="/intro-django/docs/django-2/salidacsv/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjango-2salidacsv"><span class="">Generación de archivos CSV</span></a></label>
   
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocsdjango-2salidajson-li">
   <input type="checkbox" id="m-intro-djangodocsdjango-2salidajson-check"/>
@@ -293,6 +293,19 @@
             
             
 
+
+<div class="td-toc"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#vistas-genéricas-para-edición">Vistas Genéricas para edición</a></li>
+    <li><a href="#gestión-de-autores">Gestión de Autores</a>
+      <ul>
+        <li><a href="#vistas">Vistas</a></li>
+        <li><a href="#templates">Templates</a></li>
+        <li><a href="#urls">URLs</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
 
 
 
@@ -374,17 +387,20 @@
     <a href="https://lmorillas.github.io/intro-django/docs/">Recursos</a>
   </li>
   <li class="breadcrumb-item">
-    <a href="https://lmorillas.github.io/intro-django/docs/django-2/">Django2</a>
+    <a href="https://lmorillas.github.io/intro-django/docs/django/">Django</a>
+  </li>
+  <li class="breadcrumb-item">
+    <a href="https://lmorillas.github.io/intro-django/docs/django/formularios/">Formularios</a>
   </li>
   <li class="breadcrumb-item active" aria-current="page">
-    <a href="https://lmorillas.github.io/intro-django/docs/django-2/salidacsv/" aria-disabled="true" class="btn-link disabled">Generación de archivos CSV</a>
+    <a href="https://lmorillas.github.io/intro-django/docs/django/formularios/genericview/" aria-disabled="true" class="btn-link disabled">GenericView</a>
   </li>
   </ol>
 </nav>
             
 <div class="td-content">
-	<h1>Generación de archivos CSV</h1>
-	<div class="lead">Generación de salida csv</div>
+	<h1>Vistas Genéricas</h1>
+	<div class="lead">Formularios</div>
 	<header class="article-meta">
 		
 
@@ -396,6 +412,15 @@
     
 
 
+<div class="taxonomy taxonomy-terms-article taxo-tags">
+  <h5 class="taxonomy-title">Tags:</h5>
+  <ul class="taxonomy-terms">
+    
+      <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/formularios/" data-taxonomy-term="formularios"><span class="taxonomy-label">Formularios</span></a></li>
+    
+  </ul>
+</div>
+
   
 
 		
@@ -403,35 +428,68 @@
 	
 
 <div class="pageinfo pageinfo-primary">
+<p>Documentación:</p>
 <ul>
-<li><a href="https://docs.djangoproject.com/en/4.0/howto/outputting-csv/">https://docs.djangoproject.com/en/4.0/howto/outputting-csv/</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Forms#generic_editing_views">https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Forms#generic_editing_views</a></li>
 </ul>
 
 </div>
 
-<h2 id="generación-de-un-csv-dinámico">Generación de un CSV dinámico</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">csv</span>
-</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">django.http</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">HttpResponse</span>
+<h2 id="vistas-genéricas-para-edición">Vistas Genéricas para edición</h2>
+<p><code>CreateView</code>, <code>UpdateView</code>, <code>DeleteView</code></p>
+<h2 id="gestión-de-autores">Gestión de Autores</h2>
+<h3 id="vistas">Vistas</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">django.views.generic.edit</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">CreateView</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">UpdateView</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">DeleteView</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">django.urls</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">reverse_lazy</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">def</span> <span style="color:#000">some_view</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">request</span><span style="color:#000;font-weight:bold">):</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic"># Create the HttpResponse object with the appropriate CSV header.</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">response</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">HttpResponse</span><span style="color:#000;font-weight:bold">(</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#000">content_type</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#39;text/csv&#39;</span><span style="color:#000;font-weight:bold">,</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#000">headers</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000;font-weight:bold">{</span><span style="color:#4e9a06">&#39;Content-Disposition&#39;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#39;attachment; filename=&#34;somefilename.csv&#34;&#39;</span><span style="color:#000;font-weight:bold">},</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">catalog.models</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">Author</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">writer</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">csv</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">writer</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">response</span><span style="color:#000;font-weight:bold">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">writer</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">writerow</span><span style="color:#000;font-weight:bold">([</span><span style="color:#4e9a06">&#39;First row&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;Foo&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;Bar&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;Baz&#39;</span><span style="color:#000;font-weight:bold">])</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">writer</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">writerow</span><span style="color:#000;font-weight:bold">([</span><span style="color:#4e9a06">&#39;Second row&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;A&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;B&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;C&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;&#34;Testing&#34;&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;Here&#39;s a quote&#34;</span><span style="color:#000;font-weight:bold">])</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">class</span> <span style="color:#000">AuthorCreate</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">CreateView</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">model</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">Author</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">fields</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#39;first_name&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;last_name&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;date_of_birth&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;date_of_death&#39;</span><span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic">#initial = {&#39;date_of_death&#39;: &#39;11/06/2020&#39;}</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">response</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">class</span> <span style="color:#000">AuthorUpdate</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">UpdateView</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">model</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">Author</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">fields</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#39;__all__&#39;</span> <span style="color:#8f5902;font-style:italic"># Not recommended (potential security issue if more fields added)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">class</span> <span style="color:#000">AuthorDelete</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">DeleteView</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">model</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">Author</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">success_url</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">reverse_lazy</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;authors&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span></code></pre></div><h3 id="templates">Templates</h3>
+<p><code>locallibrary/catalog/templates/catalog/author_form.html</code></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{% extends &#34;base.html&#34; %}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{% block content %}
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">form</span> <span style="color:#c4a000">action</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;&#34;</span> <span style="color:#c4a000">method</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;post&#34;</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>    {% csrf_token %}  #  Atención!! Protección CSRF
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">table</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>    {{ form.as_table }}
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">table</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">input</span> <span style="color:#c4a000">type</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;submit&#34;</span> <span style="color:#c4a000">value</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;Submit&#34;</span> <span style="color:#000;font-weight:bold">/&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">form</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>{% endblock %}
+</span></span></code></pre></div><h4 id="confirm-delete">Confirm delete</h4>
+<p><code>locallibrary/catalog/templates/catalog/author_confirm_delete.html</code></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{% extends &#34;base.html&#34; %}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{% block content %}
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">p</span><span style="color:#000;font-weight:bold">&gt;</span>Are you sure you want to delete this author?<span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">p</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">form</span> <span style="color:#c4a000">action</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;&#34;</span> <span style="color:#c4a000">method</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;post&#34;</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>    {% csrf_token %}
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">input</span> <span style="color:#c4a000">type</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;submit&#34;</span> <span style="color:#c4a000">value</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;Confirm&#34;</span> <span style="color:#000;font-weight:bold">/&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">form</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>{% endblock %}
+</span></span></code></pre></div><h3 id="urls">URLs</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#000">urlpatterns</span> <span style="color:#ce5c00;font-weight:bold">+=</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">path</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;author/create/&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">views</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">AuthorCreate</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">as_view</span><span style="color:#000;font-weight:bold">(),</span> <span style="color:#000">name</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#39;author-create&#39;</span><span style="color:#000;font-weight:bold">),</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">path</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;author/&lt;int:pk&gt;/update/&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">views</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">AuthorUpdate</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">as_view</span><span style="color:#000;font-weight:bold">(),</span> <span style="color:#000">name</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#39;author-update&#39;</span><span style="color:#000;font-weight:bold">),</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">path</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;author/&lt;int:pk&gt;/delete/&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">views</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">AuthorDelete</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">as_view</span><span style="color:#000;font-weight:bold">(),</span> <span style="color:#000">name</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#39;author-delete&#39;</span><span style="color:#000;font-weight:bold">),</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">]</span>
 </span></span></code></pre></div>
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">
-  Última modificación October 21, 2022: <a href="https://github.com/lmorillas/dwes/commit/f6c06918e8ab3acf296a0ccb9bd0305c9934c66d">inicio django (f6c0691)</a>
-</div>
-
+	
 </div>
 
 

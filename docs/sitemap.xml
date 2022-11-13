@@ -20,6 +20,9 @@
     <loc>https://lmorillas.github.io/intro-django/docs/django/</loc>
     <lastmod>2022-11-01T21:29:12+01:00</lastmod>
   </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/django/formularios/busqueda/</loc>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
+  </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/instalacion/</loc>
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
   </url><url>
@@ -40,6 +43,9 @@
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/sitio_administrativo/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+  </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/django/formularios/form/</loc>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/web/requests/</loc>
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
@@ -71,6 +77,9 @@
     <loc>https://lmorillas.github.io/intro-django/docs/web/mensajes/</loc>
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
   </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/django/formularios/modelform/</loc>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
+  </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/generic-views/</loc>
     <lastmod>2022-11-10T09:19:11+01:00</lastmod>
   </url><url>
@@ -78,16 +87,19 @@
     <lastmod>2022-11-10T09:19:11+01:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/favicon/</loc>
-    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
+    <lastmod>2022-11-10T11:41:59+01:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/formularios/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django-2/postgresql/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/formularios_crispy/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+  </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/django/formularios/genericview/</loc>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/web/sesion/</loc>
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
