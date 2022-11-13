@@ -1,7 +1,7 @@
 ---
-title: "Sesiones"
+title: "GH Codespaces"
 date: 2021-10-21T10:36:54+02:00
-weight: 16
+weight: 24
 description: >
   Gestión de sesiones
 tags: [Sesiones]
@@ -27,7 +27,7 @@ MIDDLEWARE = [
 
 ## Ejemplo: contador de visitas
 
-> Tienes que adaptarlo a nuestro modelo de View del proyecto
+> Tienes que adaptarlo si usas otro modelo de vista 
 > 
 ```python
 def index(request):

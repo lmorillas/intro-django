@@ -5,6 +5,7 @@ weight: 15
 description: >
   Urls, vistas, plantillas, modelos
 tags: [ejercicio]
+draft: true
 ---
 
 {{% pageinfo %}}

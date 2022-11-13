@@ -21,7 +21,7 @@
     <lastmod>2022-11-01T21:29:12+01:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/formularios/busqueda/</loc>
-    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
+    <lastmod>2022-11-13T21:45:25+01:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/instalacion/</loc>
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
@@ -45,7 +45,7 @@
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/formularios/form/</loc>
-    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
+    <lastmod>2022-11-13T21:45:25+01:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/web/requests/</loc>
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
@@ -71,14 +71,11 @@
     <loc>https://lmorillas.github.io/intro-django/docs/django-2/backup/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/intro-django/docs/django/ejercicios_repaso/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
-  </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/web/mensajes/</loc>
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/formularios/modelform/</loc>
-    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
+    <lastmod>2022-11-13T21:45:25+01:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/generic-views/</loc>
     <lastmod>2022-11-10T09:19:11+01:00</lastmod>
@@ -86,20 +83,20 @@
     <loc>https://lmorillas.github.io/intro-django/docs/django/mapa-leaflet-para-contacto/</loc>
     <lastmod>2022-11-10T09:19:11+01:00</lastmod>
   </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/django/sesiones/</loc>
+    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+  </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/favicon/</loc>
     <lastmod>2022-11-10T11:41:59+01:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/formularios/</loc>
-    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
+    <lastmod>2022-11-13T21:45:25+01:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django-2/postgresql/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/intro-django/docs/django/formularios_crispy/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
-  </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/formularios/genericview/</loc>
-    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
+    <lastmod>2022-11-13T21:45:25+01:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/web/sesion/</loc>
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
@@ -110,8 +107,8 @@
     <loc>https://lmorillas.github.io/intro-django/docs/</loc>
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/intro-django/docs/django/sesiones/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+    <loc>https://lmorillas.github.io/intro-django/docs/django/codespaces/</loc>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/autenticacion/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
@@ -134,9 +131,6 @@
     <loc>https://lmorillas.github.io/intro-django/tags/autenticaci%C3%B3n/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/intro-django/tags/crispy/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
-  </url><url>
     <loc>https://lmorillas.github.io/intro-django/tags/django/</loc>
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
   </url><url>
@@ -146,14 +140,11 @@
     <loc>https://lmorillas.github.io/intro-django/tags/dotenv/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/intro-django/tags/ejercicio/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
-  </url><url>
     <loc>https://lmorillas.github.io/intro-django/tags/est%C3%A1ticos/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/tags/formularios/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+    <lastmod>2022-11-13T21:45:25+01:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/tags/http/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
@@ -177,7 +168,7 @@
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/tags/</loc>
-    <lastmod>2022-11-10T09:19:11+01:00</lastmod>
+    <lastmod>2022-11-13T21:45:25+01:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/tags/template/</loc>
     <lastmod>2022-11-06T22:29:47+01:00</lastmod>
