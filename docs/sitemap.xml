@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lmorillas.github.io/intro-django/docs/practicas/migrar_de_sqlite_a_postgresql/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
-  </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/web/</loc>
     <lastmod>2022-10-23T20:49:02+02:00</lastmod>
   </url><url>
@@ -25,6 +22,9 @@
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/instalacion/</loc>
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
+  </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/extra/git/</loc>
+    <lastmod>2021-10-21T10:29:17+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/web/http/</loc>
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
@@ -80,9 +80,6 @@
     <loc>https://lmorillas.github.io/intro-django/docs/django/generic-views/</loc>
     <lastmod>2022-11-10T09:19:11+01:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/intro-django/docs/django/mapa-leaflet-para-contacto/</loc>
-    <lastmod>2022-11-10T09:19:11+01:00</lastmod>
-  </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/sesiones/</loc>
     <lastmod>2022-11-13T21:49:59+01:00</lastmod>
   </url><url>
@@ -94,6 +91,9 @@
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django-2/postgresql/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+  </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/django/traduccion/</loc>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/django/formularios/genericview/</loc>
     <lastmod>2022-11-13T21:45:25+01:00</lastmod>
@@ -122,8 +122,11 @@
     <loc>https://lmorillas.github.io/intro-django/docs/django/mapas/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/intro-django/docs/practicas/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+    <loc>https://lmorillas.github.io/intro-django/docs/extra/</loc>
+    <lastmod>2021-10-21T10:29:17+02:00</lastmod>
+  </url><url>
+    <loc>https://lmorillas.github.io/intro-django/docs/extra/migrar_de_sqlite_a_postgresql/</loc>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/docs/web/como-funciona-internet/</loc>
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
@@ -156,13 +159,13 @@
     <lastmod>2022-10-23T20:37:03+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/tags/mibraci%C3%B3n/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/tags/permisos/</loc>
     <lastmod>2022-10-21T19:48:09+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/tags/postgresql/</loc>
-    <lastmod>2022-10-21T19:48:09+02:00</lastmod>
+    <lastmod>2021-10-21T10:36:54+02:00</lastmod>
   </url><url>
     <loc>https://lmorillas.github.io/intro-django/tags/sesiones/</loc>
     <lastmod>2022-11-13T21:49:59+01:00</lastmod>

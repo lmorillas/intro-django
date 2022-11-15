@@ -1,7 +1,7 @@
 ---
 title: "Migración del proyecto de Django de sqlite a Postgresql"
 date: 2021-10-21T10:36:54+02:00
-weight: 1
+weight: 130
 description: >
   Migración de Sqlite a Postgresql
 tags: [mibración, postgresql, django]

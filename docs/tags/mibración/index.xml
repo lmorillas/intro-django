@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Migración del proyecto de Django de sqlite a Postgresql</title>
-      <link>https://lmorillas.github.io/intro-django/docs/practicas/migrar_de_sqlite_a_postgresql/</link>
+      <link>https://lmorillas.github.io/intro-django/docs/extra/migrar_de_sqlite_a_postgresql/</link>
       <pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/intro-django/docs/practicas/migrar_de_sqlite_a_postgresql/</guid>
+      <guid>https://lmorillas.github.io/intro-django/docs/extra/migrar_de_sqlite_a_postgresql/</guid>
       <description>
         
         

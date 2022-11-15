@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introducción a Django – django</title>
-    <link>https://lmorillas.github.io/intro-django/tags/django/</link>
-    <description>Recent content in django on Introducción a Django</description>
+    <title>Introducción a Django – Extra</title>
+    <link>https://lmorillas.github.io/intro-django/docs/extra/</link>
+    <description>Recent content in Extra on Introducción a Django</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 21 Oct 2021 10:36:54 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 21 Oct 2021 10:29:17 +0200</lastBuildDate>
     
-	  <atom:link href="https://lmorillas.github.io/intro-django/tags/django/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://lmorillas.github.io/intro-django/docs/extra/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,142 +15,47 @@
     
     
     <item>
-      <title>Docs: Instalación</title>
-      <link>https://lmorillas.github.io/intro-django/docs/django/instalacion/</link>
-      <pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate>
+      <title>Docs: Git - GitHub Workflow</title>
+      <link>https://lmorillas.github.io/intro-django/docs/extra/git/</link>
+      <pubDate>Thu, 21 Oct 2021 10:29:17 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/intro-django/docs/django/instalacion/</guid>
+      <guid>https://lmorillas.github.io/intro-django/docs/extra/git/</guid>
       <description>
         
         
         
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;p&gt;Instalación y configuración del entorno para desarrollo:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;📚 Documentación&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.djangoproject.com/en/4.1/intro/install/&#34;&gt;https://docs.djangoproject.com/en/4.1/intro/install/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/python/tutorial-django&#34;&gt;https://code.visualstudio.com/docs/python/tutorial-django&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/es/get-started/quickstart/fork-a-repo&#34;&gt;https://docs.github.com/es/get-started/quickstart/fork-a-repo&lt;/a&gt; 💗&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork&#34;&gt;https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow&#34;&gt;https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;/div&gt;
 
-&lt;h2 id=&#34;instalación-de-python&#34;&gt;Instalación de Python&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Versión de python? &lt;a href=&#34;https://docs.djangoproject.com/en/4.1/faq/install/#faq-python-version-support&#34;&gt;https://docs.djangoproject.com/en/4.1/faq/install/#faq-python-version-support&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.python.org/downloads/&#34;&gt;https://www.python.org/downloads/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;configuración-de-una-base-de-datos&#34;&gt;Configuración de una base de datos&lt;/h2&gt;
-&lt;p&gt;Al inicio no será necesario. Luego podremos usar PostgreSQL, MariaDB, MySQL, Oracle (&lt;a href=&#34;https://docs.djangoproject.com/en/3.2/topics/install/#database-installation&#34;&gt;https://docs.djangoproject.com/en/3.2/topics/install/#database-installation&lt;/a&gt;)&lt;/p&gt;
-&lt;h2 id=&#34;entorno-virtual&#34;&gt;Entorno virtual&lt;/h2&gt;
-&lt;p&gt;Creamos carpeta para el proyecto y dentro de esa carpeta:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Linux&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python3 -m venv env
+&lt;p&gt;&lt;img src=&#34;https://www.freecodecamp.org/news/content/images/2022/02/GitHub-Fork.gif&#34; alt=&#34;Fork-Pull request&#34;&gt;
+Fuente imagen: &lt;a href=&#34;https://www.freecodecamp.org/news/how-to-fork-a-github-repository/&#34;&gt;https://www.freecodecamp.org/news/how-to-fork-a-github-repository/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fork-de-un-repositorio&#34;&gt;Fork de un repositorio&lt;/h2&gt;
+&lt;p&gt;Interfaz de github&lt;/p&gt;
+&lt;h2 id=&#34;clonar-repositorio&#34;&gt;Clonar repositorio&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git clone &amp;lt;url de mi repositorio&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;configurar-remoto-upstream&#34;&gt;Configurar remoto upstream&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git remote -v
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;gt; origin  &amp;lt;url&amp;gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;fetch&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;gt; origin  &amp;lt;url&amp;gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;push&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# macOS&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python3 -m venv env
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Windows&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;py -m venv env
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Activar entorno:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Windows&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;env&lt;span style=&#34;color:#4e9a06&#34;&gt;\S&lt;/span&gt;cripts&lt;span style=&#34;color:#4e9a06&#34;&gt;\a&lt;/span&gt;ctivate.bat
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# linux/mac&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; tutorial-env/bin/activate
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;instalación-de-django&#34;&gt;Instalación de Django&lt;/h2&gt;
-&lt;p&gt;Instalación de una versión oficial: &lt;a href=&#34;https://docs.djangoproject.com/en/3.2/topics/install/#installing-official-release&#34;&gt;https://docs.djangoproject.com/en/3.2/topics/install/#installing-official-release&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Linux / Mac&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ pip install Django
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Windows&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...&lt;span style=&#34;color:#4e9a06&#34;&gt;\&amp;gt;&lt;/span&gt; py -m pip install Django
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;comprobación&#34;&gt;Comprobación&lt;/h2&gt;
-&lt;p&gt;Usa el intérprete de python&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;django&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#204a87&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;django&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;get_version&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;())&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;4.1&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;configuración-del-entorno-visual-studio-code&#34;&gt;Configuración del entorno (Visual Studio Code)&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/python/tutorial-django&#34;&gt;https://code.visualstudio.com/docs/python/tutorial-django&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/es-es/visualstudio/python/learn-django-in-visual-studio-step-01-project-and-solution&#34;&gt;https://docs.microsoft.com/es-es/visualstudio/python/learn-django-in-visual-studio-step-01-project-and-solution&lt;/a&gt;&lt;/li&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git remote add upstream &amp;lt;repositorio original&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git remote -v
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;creación-de-ramas--commits&#34;&gt;Creación de ramas / commits&lt;/h2&gt;
+&lt;h2 id=&#34;sincronizar-con-original&#34;&gt;Sincronizar con original&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git fetch upstream
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;📕  &lt;a href=&#34;https://www.atlassian.com/git/tutorials/git-forks-and-upstreams&#34;&gt;https://www.atlassian.com/git/tutorials/git-forks-and-upstreams&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;browser-para-sqlite&#34;&gt;Browser para SQLite&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sqlitebrowser.org/dl/&#34;&gt;https://sqlitebrowser.org/dl/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Creación de un proyecto y una app</title>
-      <link>https://lmorillas.github.io/intro-django/docs/django/creacion-proyecto-app/</link>
-      <pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate>
-      
-      <guid>https://lmorillas.github.io/intro-django/docs/django/creacion-proyecto-app/</guid>
-      <description>
-        
-        
-        
-
-&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;p&gt;Documentación&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/es/docs/Learn/Server-side/Django/Tutorial_local_library_website&#34;&gt;https://developer.mozilla.org/es/docs/Learn/Server-side/Django/Tutorial_local_library_website&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.djangoproject.com/es/4.1/intro/tutorial01/&#34;&gt;https://docs.djangoproject.com/es/4.1/intro/tutorial01/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Objetivo: &lt;strong&gt;locallibrary&lt;/strong&gt; &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/div&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;creación-de-proyecto&#34;&gt;Creación de proyecto&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ django-admin startproject locallibrary
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;locallibrary/
-    manage.py
-    locallibrary/
-        __init__.py
-        settings.py
-        urls.py
-        asgi.py
-        wsgi.py
-&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ python3 manage.py runserver
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Parar con &lt;code&gt;Ctrl+C&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;creación-aplicación&#34;&gt;Creación aplicación&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ python3 manage.py startapp catalog
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;** Estructura**&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;locallibrary/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    manage.py
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    locallibrary/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    catalog/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        admin.py
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        apps.py
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        models.py
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        tests.py
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        views.py
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        __init__.py
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        migrations/
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;modelo-vista-template&#34;&gt;Modelo Vista Template&lt;/h2&gt;
-&lt;p&gt;Diseño común: patrón Modelo Vista Controlador (&lt;strong&gt;MVC&lt;/strong&gt;)
-Django usa: &lt;strong&gt;MVT&lt;/strong&gt;: Permite que las templates puedan desarrollarse en cualquier lenguaje:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Modelos y Vistas se escriben en &lt;strong&gt;Python&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Templates se escriben en &lt;strong&gt;html&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;registrar-app&#34;&gt;Registrar app&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website#registering_the_catalog_application&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website#registering_the_catalog_application&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;especificar-base-de-datos&#34;&gt;Especificar base de datos&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website#specifying_the_database&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website#specifying_the_database&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;configuración-local&#34;&gt;Configuración local&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website#other_project_settings&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website#other_project_settings&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;url-mapper&#34;&gt;URL mapper&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website#hooking_up_the_url_mapper&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website#hooking_up_the_url_mapper&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;testing&#34;&gt;Testing&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website#testing_the_website_framework&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website#testing_the_website_framework&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;running&#34;&gt;Running&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website#running_the_website&#34;&gt;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website#running_the_website&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;pull-request&#34;&gt;Pull request&lt;/h2&gt;
 
       </description>
     </item>
