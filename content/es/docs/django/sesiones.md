@@ -1,7 +1,7 @@
 ---
 title: "Sesiones"
 date: 2021-10-21T10:36:54+02:00
-weight: 24
+weight: 16
 description: >
   Gestión de sesiones
 tags: [Sesiones]
@@ -26,6 +26,9 @@ MIDDLEWARE = [
 ```
 
 ## Ejemplo: contador de visitas
+
+> Tienes que adaptarlo a nuestro modelo de View del proyecto
+> 
 ```python
 def index(request):
     ...
