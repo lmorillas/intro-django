@@ -27,13 +27,13 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lmorillas.github.io/intro-django/docs/django/autenticacion/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2021-10-21T10:36:54+02:00" />
-<meta property="article:modified_time" content="2022-10-21T19:48:09+02:00" /><meta property="og:site_name" content="Introducción a Django" />
+<meta property="article:modified_time" content="2022-11-20T20:26:13+01:00" /><meta property="og:site_name" content="Introducción a Django" />
 
 <meta itemprop="name" content="Autenticación y permisos">
 <meta itemprop="description" content="Autenticación y permisos
 "><meta itemprop="datePublished" content="2021-10-21T10:36:54+02:00" />
-<meta itemprop="dateModified" content="2022-10-21T19:48:09+02:00" />
-<meta itemprop="wordCount" content="242">
+<meta itemprop="dateModified" content="2022-11-20T20:26:13+01:00" />
+<meta itemprop="wordCount" content="382">
 <meta itemprop="keywords" content="Autenticación,Permisos," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Autenticación y permisos"/>
 <meta name="twitter:description" content="Autenticación y permisos
@@ -158,9 +158,9 @@
   <input type="checkbox" id="m-intro-djangodocsdjangomodelos-check"/>
   <label for="m-intro-djangodocsdjangomodelos-check"><a href="/intro-django/docs/django/modelos/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjangomodelos"><span class="">Modelos</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocsdjangositio_administrativo-li">
-  <input type="checkbox" id="m-intro-djangodocsdjangositio_administrativo-check"/>
-  <label for="m-intro-djangodocsdjangositio_administrativo-check"><a href="/intro-django/docs/django/sitio_administrativo/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjangositio_administrativo"><span class="">Sitio administrativo</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocsdjangoadmin-li">
+  <input type="checkbox" id="m-intro-djangodocsdjangoadmin-check"/>
+  <label for="m-intro-djangodocsdjangoadmin-check"><a href="/intro-django/docs/django/admin/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsdjangoadmin"><span class="">Admin</span></a></label>
   
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocsdjangohome_page-li">
   <input type="checkbox" id="m-intro-djangodocsdjangohome_page-check"/>
@@ -275,9 +275,13 @@
   <input type="checkbox" id="m-intro-djangodocsextragit-check"/>
   <label for="m-intro-djangodocsextragit-check"><a href="/intro-django/docs/extra/git/" title="Git - GitHub Workflow" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsextragit"><span class="">Git Workflow</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocsextramigrar_de_sqlite_a_postgresql-li">
-  <input type="checkbox" id="m-intro-djangodocsextramigrar_de_sqlite_a_postgresql-check"/>
-  <label for="m-intro-djangodocsextramigrar_de_sqlite_a_postgresql-check"><a href="/intro-django/docs/extra/migrar_de_sqlite_a_postgresql/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsextramigrar_de_sqlite_a_postgresql"><span class="">Migración del proyecto de Django de sqlite a Postgresql</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocsextraemail-li">
+  <input type="checkbox" id="m-intro-djangodocsextraemail-check"/>
+  <label for="m-intro-djangodocsextraemail-check"><a href="/intro-django/docs/extra/email/" title="Enviar correo" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsextraemail"><span class="">Correo</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-intro-djangodocsextraentorno-li">
+  <input type="checkbox" id="m-intro-djangodocsextraentorno-check"/>
+  <label for="m-intro-djangodocsextraentorno-check"><a href="/intro-django/docs/extra/entorno/" title="Variables de entorno" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-intro-djangodocsextraentorno"><span class="">Entorno</span></a></label>
   
 </li>
   </ul>
@@ -304,6 +308,7 @@
     </li>
     <li><a href="#login_url">LOGIN_URL</a></li>
     <li><a href="#logout">LOGOUT</a></li>
+    <li><a href="#reset-email">Reset email</a></li>
     <li><a href="#forzar-login">Forzar login</a></li>
     <li><a href="#permisos">Permisos</a></li>
   </ul>
@@ -336,7 +341,7 @@
         
           <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/autenticaci%C3%B3n/" data-taxonomy-term="autenticaci%C3%B3n"><span class="taxonomy-label">Autenticación</span><span class="taxonomy-count">1</span></a></li>
         
-          <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/django/" data-taxonomy-term="django"><span class="taxonomy-label">django</span><span class="taxonomy-count">3</span></a></li>
+          <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/django/" data-taxonomy-term="django"><span class="taxonomy-label">django</span><span class="taxonomy-count">2</span></a></li>
         
           <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/documentos/" data-taxonomy-term="documentos"><span class="taxonomy-label">Documentos</span><span class="taxonomy-count">1</span></a></li>
         
@@ -352,11 +357,7 @@
         
           <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/instalaci%C3%B3n/" data-taxonomy-term="instalaci%C3%B3n"><span class="taxonomy-label">instalación</span><span class="taxonomy-count">1</span></a></li>
         
-          <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/mibraci%C3%B3n/" data-taxonomy-term="mibraci%C3%B3n"><span class="taxonomy-label">mibración</span><span class="taxonomy-count">1</span></a></li>
-        
           <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/permisos/" data-taxonomy-term="permisos"><span class="taxonomy-label">Permisos</span><span class="taxonomy-count">1</span></a></li>
-        
-          <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/postgresql/" data-taxonomy-term="postgresql"><span class="taxonomy-label">postgresql</span><span class="taxonomy-count">1</span></a></li>
         
           <li><a class="taxonomy-term" href="https://lmorillas.github.io/intro-django/tags/sesiones/" data-taxonomy-term="sesiones"><span class="taxonomy-label">Sesiones</span><span class="taxonomy-count">1</span></a></li>
         
@@ -456,11 +457,53 @@
 <p>Por defecto: <strong>&rsquo;/accounts/login/&rsquo;</strong></p>
 <ul>
 <li>Escribir templates: <strong>&lsquo;registration/login.html&rsquo;</strong> dentro de la carpeta del proyecto.</li>
-<li>Hay que tener configurada la búsqueda de templates en <strong>settings.py</strong>  <a href="https://github.com/lmorillas/biblioteca/blob/main/biblioteca/settings.py#L63">https://github.com/lmorillas/biblioteca/blob/main/biblioteca/settings.py#L63</a></li>
 </ul>
-<h2 id="logout">LOGOUT</h2>
+<p>Ejemplo login.html</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{% extends &#34;base.html&#34; %}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{% block content %}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{% if form.errors %}
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">p</span><span style="color:#000;font-weight:bold">&gt;</span>Your username and password didn&#39;t match. Please try again.<span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">p</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>{% endif %}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{% if next %}
+</span></span><span style="display:flex;"><span>    {% if user.is_authenticated %}
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">p</span><span style="color:#000;font-weight:bold">&gt;</span>Your account doesn&#39;t have access to this page. To proceed,
+</span></span><span style="display:flex;"><span>    please login with an account that has access.<span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">p</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>    {% else %}
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">p</span><span style="color:#000;font-weight:bold">&gt;</span>Please login to see this page.<span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">p</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>    {% endif %}
+</span></span><span style="display:flex;"><span>{% endif %}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">form</span> <span style="color:#c4a000">method</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;post&#34;</span> <span style="color:#c4a000">action</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;{% url &#39;login&#39; %}&#34;</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>{% csrf_token %}
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">table</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">tr</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">td</span><span style="color:#000;font-weight:bold">&gt;</span>{{ form.username.label_tag }}<span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">td</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">td</span><span style="color:#000;font-weight:bold">&gt;</span>{{ form.username }}<span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">td</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">tr</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">tr</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">td</span><span style="color:#000;font-weight:bold">&gt;</span>{{ form.password.label_tag }}<span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">td</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">td</span><span style="color:#000;font-weight:bold">&gt;</span>{{ form.password }}<span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">td</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">tr</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">table</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">input</span> <span style="color:#c4a000">type</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;submit&#34;</span> <span style="color:#c4a000">value</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;login&#34;</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">input</span> <span style="color:#c4a000">type</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;hidden&#34;</span> <span style="color:#c4a000">name</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;next&#34;</span> <span style="color:#c4a000">value</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;{{ next }}&#34;</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">form</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{# Assumes you set up the password_reset view in your URLconf #}
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">p</span><span style="color:#000;font-weight:bold">&gt;&lt;</span><span style="color:#204a87;font-weight:bold">a</span> <span style="color:#c4a000">href</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;{% url &#39;password_reset&#39; %}&#34;</span><span style="color:#000;font-weight:bold">&gt;</span>Lost password?<span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">a</span><span style="color:#000;font-weight:bold">&gt;&lt;/</span><span style="color:#204a87;font-weight:bold">p</span><span style="color:#000;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{% endblock %}
+</span></span></code></pre></div><h2 id="logout">LOGOUT</h2>
 <p>Se puede configurar LOGOUT_REDIRECT_URL en settings.py o facilitar la plantilla  <strong>&lsquo;registration/logged_out.html&rsquo;</strong> que responde a la acción de logout.</p>
-<h2 id="forzar-login">Forzar login</h2>
+<h2 id="reset-email">Reset email</h2>
+<p><code>registration/password_reset_email.html</code></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>Someone asked for password reset for email {{ email }}. Follow the link below:
+</span></span><span style="display:flex;"><span>{{ protocol}}://{{ domain }}{% url &#39;password_reset_confirm&#39; uidb64=uid token=token %}
+</span></span></code></pre></div><h2 id="forzar-login">Forzar login</h2>
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">django.conf</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">settings</span>
 </span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">django.shortcuts</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">redirect</span>
 </span></span><span style="display:flex;"><span>
@@ -519,7 +562,7 @@
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">
-  Última modificación October 21, 2022: <a href="https://github.com/lmorillas/dwes/commit/f6c06918e8ab3acf296a0ccb9bd0305c9934c66d">inicio django (f6c0691)</a>
+  Última modificación November 20, 2022: <a href="https://github.com/lmorillas/dwes/commit/f24c17cf54c04f7aa024cfff099a8a7dad68aad4">avances (f24c17c)</a>
 </div>
 
 </div>
