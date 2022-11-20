@@ -5,6 +5,7 @@ weight: 130
 description: >
   Migración de Sqlite a Postgresql
 tags: [mibración, postgresql, django]
+draft: true
 ---
 
 {{% pageinfo %}}

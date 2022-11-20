@@ -2,7 +2,7 @@
 title: "Git - GitHub Workflow"
 date: 2021-10-21T10:29:17+02:00
 linkTitle: "Git Workflow"
-weight: 5
+weight: 3
 description: >
   Utilidades git y github
 docs: >
