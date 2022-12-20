@@ -8,58 +8,40 @@ tags: []
 ---
 
 {{% pageinfo %}}
-* https://docs.djangoproject.com/en/4.0/ref/databases/
-* https://docs.djangoproject.com/en/4.0/ref/settings/#std:setting-DATABASES
-* https://tutorial-extensions.djangogirls.org/es/optional_postgresql_installation
-* https://www.section.io/engineering-education/django-app-using-postgresql-database/
-* https://djangocentral.com/using-postgresql-with-django/
- 
+* https://github.com/lmorillas/vagrant_docker/tree/postgres
+* https://docs.djangoproject.com/en/4.1/ref/settings/#std-setting-DATABASES
+* https://docs.djangoproject.com/en/4.1/ref/databases/#postgresql-notes
 {{% /pageinfo %}}
 
 
+## Revisión de instalación de postgres
 
-## Instalación de postgresql en linux 
-Buscar en la información
+Fíjate en el repositorio
 
-## Instalación con docker
-* https://docs.docker.com/engine/install/ubuntu/
-* https://docs.docker.com/engine/install/linux-postinstall/
-* https://docs.docker.com/samples/django/
 
-```bash
-$ curl -fsSL https://get.docker.com -o get-docker.sh
-$ sudo sh get-docker.sh
+## Uso en Django
 
-$ sudo groupadd docker
-$ sudo usermod -aG docker $USER
-$ newgrp docker
+> Si vas a migrar la bbdd haz antes un dumpdata
+
+* Instala el driver de pg: `psycopg2-binary`
+
+`$ pip install psycopg2-binary`
+
+* Configura la BBDD en el settings:
+
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydatabase',
+        'USER': 'mydatabaseuser',
+        'PASSWORD': 'mypassword',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
 ```
+* Comprueba que funciona
+* Vuelve a cargar los datos con `loaddata`
 
-```yaml
-# Use postgres/example user/password credentials
-version: '3.1'
-
-services:
-
-  db:
-    image: postgres:13.0-alpine
-    restart: never
-    environment:
-      - POSTGRES_USER=hello_django
-      - POSTGRES_PASSWORD=hello_django
-      - POSTGRES_DB=hello_django_dev
-    volumes:
-      - ./postgres_data:/var/lib/postgresql/data/
-    ports:
-      - 5432:5432
-
-  adminer:
-    image: adminer
-    restart: never
-    ports:
-      - 8080:8080
-```
-
-```bash
-$ docker-compose up -d --build
-``` 
+* Ahora vamos a ocultar las contraseñas: [Uso de variables de entorno](/intro-django/docs/extra/entorno/)

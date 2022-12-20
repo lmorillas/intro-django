@@ -2,7 +2,7 @@
 title: "Variables de entorno"
 date: 2021-10-21T10:29:17+02:00
 linkTitle: "Entorno"
-weight: 15
+weight: 20
 description: >
   
 docs: 
@@ -14,6 +14,7 @@ draft: false
 {{% pageinfo %}}
 * https://saurabh-kumar.com/python-dotenv/
 * https://github.com/henriquebastos/python-decouple/
+* https://django-environ.readthedocs.io/en/latest/  
 {{% /pageinfo %}}
 
 * Instalar
