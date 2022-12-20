@@ -339,6 +339,9 @@
 
 &lt;/div&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://testdriven.io/blog/docker-for-beginners/&#34;&gt;Intro Docker&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;revisión-de-instalación-de-postgres&#34;&gt;Revisión de instalación de postgres&lt;/h2&gt;
 &lt;p&gt;Fíjate en el repositorio&lt;/p&gt;
 &lt;h2 id=&#34;uso-en-django&#34;&gt;Uso en Django&lt;/h2&gt;

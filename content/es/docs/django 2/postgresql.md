@@ -13,6 +13,7 @@ tags: []
 * https://docs.djangoproject.com/en/4.1/ref/databases/#postgresql-notes
 {{% /pageinfo %}}
 
+> [Intro Docker](https://testdriven.io/blog/docker-for-beginners/)
 
 ## Revisión de instalación de postgres
 
