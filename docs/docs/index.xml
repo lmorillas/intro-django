@@ -2185,7 +2185,6 @@ Revisa los &lt;code&gt;form fields&lt;/code&gt; y sus argumentos en &lt;a href=&
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;...&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;django.contrib.auth.mixins&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PermissionRequiredMixin&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;MyView&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PermissionRequiredMixin&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;View&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;):&lt;/span&gt;
@@ -2194,7 +2193,37 @@ Revisa los &lt;code&gt;form fields&lt;/code&gt; y sus argumentos en &lt;a href=&
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#000&#34;&gt;permission_required&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;catalog.can_mark_returned&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;catalog.can_edit&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Note that &amp;#39;catalog.can_edit&amp;#39; is just an example&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# the catalog application doesn&amp;#39;t have such permission!&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;tarea&#34;&gt;Tarea:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Repositorio base: &lt;a href=&#34;https://github.com/lmorillas/django_blog_exercise/&#34;&gt;https://github.com/lmorillas/django_blog_exercise/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Instala y ejecuta el proyecto.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;fork del repositorio&lt;/li&gt;
+&lt;li&gt;clonar en local&lt;/li&gt;
+&lt;li&gt;crear entorno virtual e instalar paquetes&lt;/li&gt;
+&lt;li&gt;migraciones&lt;/li&gt;
+&lt;li&gt;superuser&lt;/li&gt;
+&lt;li&gt;ejecutar&lt;/li&gt;
+&lt;li&gt;introduce unos post y comentarios&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Añade la posibilidad de hacer &lt;strong&gt;login&lt;/strong&gt; y &lt;strong&gt;logout&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Modifica el modelo &lt;code&gt;Post&lt;/code&gt; para que guarde información del usuario que ha creado el post. Fíjate en el &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication#models&#34;&gt;tutorial de Mozilla&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Crea una vista+url &lt;code&gt;mis posts&lt;/code&gt; para que un usuario pueda ver sus post. Cuando se ve la página como usuarios no autenticados, el link de &lt;code&gt;mis posts&lt;/code&gt; está inactivo&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Un usuario solo puede modicar sus post pero puede comentar otros. Si no está logueado, no puede hacer comentarios, pero los puede leer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     
