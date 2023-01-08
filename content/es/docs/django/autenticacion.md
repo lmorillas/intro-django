@@ -13,6 +13,23 @@ tags: [Autenticación, Permisos]
 * https://learndjango.com/tutorials/django-login-and-logout-tutorial
 {{% /pageinfo %}}
 
+{{% pageinfo color="danger" %}}
+## Tarea:
+* Repositorio base: https://github.com/lmorillas/django_blog_exercise/
+* Instala y ejecuta el proyecto.
+  * fork del repositorio
+  * clonar en local
+  * crear entorno virtual e instalar paquetes
+  * migraciones
+  * superuser
+  * ejecutar
+  * introduce unos post y comentarios
+* Añade la posibilidad de hacer **login** y **logout**
+* Modifica el modelo `Post` para que guarde información del usuario que ha creado el post. Fíjate en el [tutorial de Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication#models)
+* Crea una vista+url `mis posts` para que un usuario pueda ver sus post. Cuando se ve la página como usuarios no autenticados, el link de `mis posts` está inactivo
+* Un usuario solo puede modicar sus post pero puede comentar otros. Si no está logueado, no puede hacer comentarios, pero los puede leer.
+{{% /pageinfo %}}
+
 ## Habilitar autenticación
 ```python
 NSTALLED_APPS = [
@@ -177,18 +194,3 @@ class MyView(PermissionRequiredMixin, View):
 
 ```
 
-## Tarea:
-* Repositorio base: https://github.com/lmorillas/django_blog_exercise/
-* Instala y ejecuta el proyecto.
-  * fork del repositorio
-  * clonar en local
-  * crear entorno virtual e instalar paquetes
-  * migraciones
-  * superuser
-  * ejecutar
-  * introduce unos post y comentarios
-
-* Añade la posibilidad de hacer **login** y **logout**
-* Modifica el modelo `Post` para que guarde información del usuario que ha creado el post. Fíjate en el [tutorial de Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication#models)
-* Crea una vista+url `mis posts` para que un usuario pueda ver sus post. Cuando se ve la página como usuarios no autenticados, el link de `mis posts` está inactivo
-* Un usuario solo puede modicar sus post pero puede comentar otros. Si no está logueado, no puede hacer comentarios, pero los puede leer.
