@@ -8,7 +8,7 @@ tags: [Autenticación, Permisos]
 ---
 
 {{% pageinfo %}}
-* https://docs.djangoproject.com/en/3.1/topics/http/sessions/
+* hhttps://docs.djangoproject.com/en/4.1/topics/auth/
 * https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication
 * https://learndjango.com/tutorials/django-login-and-logout-tutorial
 {{% /pageinfo %}}

@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introducción a Django – Permisos</title><link>https://lmorillas.github.io/intro-django/tags/permisos/</link><description>Recent content in Permisos on Introducción a Django</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 21 Oct 2021 10:36:54 +0200</lastBuildDate><atom:link href="https://lmorillas.github.io/intro-django/tags/permisos/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Autenticación y permisos</title><link>https://lmorillas.github.io/intro-django/docs/django/autenticacion/</link><pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate><guid>https://lmorillas.github.io/intro-django/docs/django/autenticacion/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;ul>
-&lt;li>&lt;a href="https://docs.djangoproject.com/en/3.1/topics/http/sessions/">https://docs.djangoproject.com/en/3.1/topics/http/sessions/&lt;/a>&lt;/li>
+&lt;li>hhttps://docs.djangoproject.com/en/4.1/topics/auth/&lt;/li>
 &lt;li>&lt;a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication">https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://learndjango.com/tutorials/django-login-and-logout-tutorial">https://learndjango.com/tutorials/django-login-and-logout-tutorial&lt;/a>&lt;/li>
 &lt;/ul>
