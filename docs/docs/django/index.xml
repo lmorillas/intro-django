@@ -723,7 +723,7 @@ Ejecuta:&lt;/p>
 &lt;h2 id="en-obras">¡¡En obras!!&lt;/h2></description></item><item><title>Docs: Autenticación y permisos</title><link>https://lmorillas.github.io/intro-django/docs/django/autenticacion/</link><pubDate>Thu, 21 Oct 2021 10:36:54 +0200</pubDate><guid>https://lmorillas.github.io/intro-django/docs/django/autenticacion/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;ul>
-&lt;li>hhttps://docs.djangoproject.com/en/4.1/topics/auth/&lt;/li>
+&lt;li>&lt;a href="https://docs.djangoproject.com/en/4.1/topics/auth/">https://docs.djangoproject.com/en/4.1/topics/auth/&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication">https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://learndjango.com/tutorials/django-login-and-logout-tutorial">https://learndjango.com/tutorials/django-login-and-logout-tutorial&lt;/a>&lt;/li>
 &lt;/ul>
