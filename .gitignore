@@ -6,3 +6,10 @@ tech-doc-hugo
 themes/docsy/
 mirar.md
 .hugo_build.lock
+
+
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover

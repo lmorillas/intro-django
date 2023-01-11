@@ -9,7 +9,8 @@ tags: []
 
 {{% pageinfo %}}
 * https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/
-* https://docs.djangoproject.com/en/4.0/topics/testing/
+* https://docs.djangoproject.com/en/4.1/topics/testing/
+* https://docs.djangoproject.com/en/4.1/topics/testing/tools/
 {{% /pageinfo %}}
 
 ## ¿Por qué?
@@ -164,3 +165,20 @@ class AccesoUsuariosTest(TestCase):
         self.assertEqual(response.status_code, 200)
 
 ```
+
+## Ejemplo de [test client con login](https://docs.djangoproject.com/en/4.1/topics/testing/tools/#overview-and-a-quick-example)
+```python
+>>> from django.test import Client
+>>> c = Client()
+>>> response = c.post('/login/', {'username': 'john', 'password': 'smith'})
+>>> response.status_code
+200
+>>> response = c.get('/customer/details/')
+>>> response.content
+b'<!DOCTYPE html...'
+```
+
+
+## TAREA
+* Crear tests para los modelos y vistas de la aplicación de blog
+

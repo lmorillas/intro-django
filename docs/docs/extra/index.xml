@@ -93,4 +93,32 @@ Fuente imagen: &lt;a href="https://www.freecodecamp.org/news/how-to-fork-a-githu
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># social auth configs for google&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">SOCIAL_AUTH_GOOGLE_OAUTH2_KEY&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87">str&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">os&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">getenv&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;GOOGLE_KEY&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87">str&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">os&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">getenv&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;GOOGLE_SECRET&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Túneles con ngrok</title><link>https://lmorillas.github.io/intro-django/docs/extra/ngrok/</link><pubDate>Thu, 21 Oct 2021 10:29:17 +0200</pubDate><guid>https://lmorillas.github.io/intro-django/docs/extra/ngrok/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;ul>
+&lt;li>&lt;a href="https://ngrok.com/">https://ngrok.com/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;ul>
+&lt;li>Descarga la versión de &lt;code>ngrok&lt;/code> para tu sistema operativo&lt;/li>
+&lt;li>Date de alta en la plataforma &lt;a href="https://dashboard.ngrok.com/signup">https://dashboard.ngrok.com/signup&lt;/a> si no tienes un usuario&lt;/li>
+&lt;li>Configura el token &lt;code>ngrok authtoken &amp;lt;TOKEN DE NGROK&amp;gt;&lt;/code>&lt;/li>
+&lt;li>Crea el túnel: &lt;code>ngrok http 8000&lt;/code> En este caso al puerto 8000 de tu ordenador porque es el que usa django por defecto. Si usas otro puerto, cambia el 8000 por el que uses.&lt;/li>
+&lt;li>Tendrás un mensaje de este tipo:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ngrok by ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Session Status online
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Account &amp;lt;tu usuario&amp;gt; &lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>Plan: Free&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Version 2.3.40
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Region United States &lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>us&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Web Interface http://127.0.0.1:4040
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Forwarding http://559b-88-7-36-xxx.ngrok.io -&amp;gt; http://localhost:8000
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Modifica el &lt;code>settings.py&lt;/code> del proyecto para que el dominio sea el que te proporciona ngrok. Copia la dirección que aparece en el mensaje anterior, en este caso &lt;code>559b-88-7-36-xxx.ngrok.io&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">ALLOWED_HOSTS&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;559b-88-7-36-xxx.ngrok.io&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Lanza el servidor local de django &lt;code>python manage.py runserver&lt;/code>&lt;/li>
+&lt;li>Abre el navegador y accede a la dirección que te proporciona ngrok. En este caso &lt;code>http://559b-88-7-36-xxx.ngrok.io&lt;/code>&lt;/li>
+&lt;/ul></description></item></channel></rss>
